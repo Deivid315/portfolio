@@ -1,0 +1,67 @@
+{# templates/security/login.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Login
+{% endblock %}
+
+{% block stylesheets %}
+	{{ parent() }}
+	{{ encore_entry_link_tags('login_css') }}
+{% endblock %}
+
+{% block body %}
+
+	<h1>Login</h1>
+
+	{% for limite in app.flashes('limite-criacao-de-conta') %}
+		<div class="flash-noticek">
+			{{ limite }}
+		</div>
+
+	{% endfor %}
+
+	{% for message in app.flashes('message') %}
+		<div class="flash-notice">
+			{{ message }}
+		</div>
+	{% endfor %}
+
+	{% for error in app.flashes('error') %}
+		<div class="flash-notice">
+			{{ error }}
+		</div>
+	{% endfor %}
+
+	{% for trocar in app.flashes('trocar_senha_sucesso') %}
+		<div class="flash-notice">
+			{{ trocar }}
+		</div>
+	{% endfor %}
+
+	<form method="post" action="{{ path('app_login') }}" novalidate>
+		<div class="mb-3">
+			<label for="inputEmail" class="form-label">Email</label>
+			<input type="email" required class="form-control" id="inputEmail" name="_username" value="{{ email }}">
+		</div>
+		<div class="mb-3">
+			<label for="inputPassword" class="form-label">Senha</label>
+			<input type="password" required placeholder="ex: email@gmail.com" class="form-control" id="inputPassword" name="_password" value="{{ senha }}" autocomplete="off">
+		</div>
+		<input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+		<button type="submit" class="btn btn-primary">Login</button>
+	</form>
+
+	<br>
+	<h2>
+		<a href="{{ path('trocar_senha')}}">
+			Esqueci minha senha
+		</a>
+	</h2>
+
+	{% block javascripts %}
+	{{ parent() }}
+		{{ encore_entry_script_tags('login_js') }}
+
+	{% endblock %}
+{% endblock %}

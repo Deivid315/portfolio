@@ -1,0 +1,189 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Painel
+{% endblock %}
+{#}
+{% block stylesheets %}
+	{{ encore_entry_link_tags('JmKI8vyvyE8K3PxAdwBD07xMg2yZ66') }}
+{% endblock %}
+{#}
+
+{% block head %}
+	<style>
+		.arq_input {
+			display: none;
+		}
+	</style>
+{% endblock %}
+
+{% block body %}
+	<h1>Editar Perfil</h1>
+	<h3>o status da sua conta:
+		{{status}}</h3>
+	{% set subs_capa = false %}
+	{% set qtd = null %}
+	{% set carregando = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7WFAiq-KurDygUkqoCSe2_LSpHv6vyPoWwA&s' %}
+	{% if qtd_server is not null and capa_server is not null %}
+
+
+		{% set subs_capa = capa_server %}
+		{% set qtd = qtd_server %}
+
+	{% endif %}
+
+	{% for message in app.flashes('retorno') %}
+		<pre>
+	{{ dump(message) }}
+</pre>
+		<div>
+			<h3>{{ message.msg }}</h3>
+		</div>
+
+		{#% set subs_capa = message.capa | default(false) %}
+		{% set qtd = message.qtd | default(null) %#}
+	{% endfor %}
+	{{ form_start(form, {'attr': {'id': 'form_edit' }}) }}
+	<button id='teste' type='button'>teste</button>
+	<div id="fotos_user" style="width: 90vw; margin-left: 5vw; display:flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 2vw">
+		{% if subs_capa %}
+
+			<div class='arq_input_img_capa'>
+				<div class='imagem-container arqs_serv' id='rm_0' data-url='null'>
+					<div id='efeito_rm_0' style='background-color: blue; width: 110px; height: 100px; border-radius: 2%;'></div>
+				</div>
+
+				<div class='arq_input' id='input_0'>
+					{{ form_row(form.capa) }}
+				</div>
+				<button id='bt_c' type='button' class='remover' data-id="0" style="display: none;">Apagar</button>
+			</div>
+		{% else %}
+			<div class='arq_input_img_capa'>
+				<div class='imagem-container arqs_serv' id='rm_0' data-url='{{ capa }}'>
+					<img id="imagem_rm_0" src="{{ capa }}" style="height: 100px;">
+				</div>
+
+				<div class='arq_input' id='input_0'>
+					{{ form_row(form.capa) }}
+				</div>
+				<button id='bt_c' type='button' class='remover' data-id="0">Apagar</button>
+			</div>
+		{% endif %}
+
+		<div id='detalhes'>
+			{% for key, det in detalhes %}
+				{% if det is iterable %}
+					{{ form_row(form.fetiches) }}
+				{% elseif key is same as('biografia') %}
+					<p>
+						{{ key|capitalize }}:
+						<div id='{{key}}_campo'>{{ det|nl2br }}</div>
+						{{ form_row(form[key]) }}
+					</p>
+				{% else %}
+					<p>
+						{{ key|capitalize }}:
+						<div id='{{key}}_campo'>{{ det }}</div>
+						{{ form_row(form[key]) }}
+					</p>
+                    <script>
+                        if (['peso', 'altura', 'etnia', 'cabelo', 'sexualidade'].includes('{{ key }}')) {
+                            let ch = document.getElementById('edit_perfil_form_{{ key }}');
+                            if (ch) {
+								let det = `{{ det|raw|replace({'"""': '"'}) }}`;
+                                ch.value = det;
+                            }
+                        }
+                    </script>
+				{% endif %}
+			{% endfor %}
+			{% set valor = 0 %}
+			{#
+							em cada arquivo é criado uma div geral com arq_input_img
+							se for imagem e arq_input_video se for vídeo, dentro dele
+							tem teu respectivo tipo de arquivo, um input e um button.
+							Se a quantidade de arquivos for inferior a quantidade de
+							inputs então o restante dos inputs serão todos jogados
+							juntos para o final
+						#}
+
+			{% if qtd >= 1 %}
+				{% for i in 1..qtd %}
+					{% set valor = valor + 1 %}
+					<div class='arq_input_img'>
+						<div class='imagem-container carreg arqs_serv' id='rm_{{ valor }}' data-url='null' data-val='{{ valor }}'>
+							<div id='efeito_{{ valor }}' style='background-color: blue; width: 110px; height: 100px; border-radius: 2%;'></div>
+						</div>
+						<div class='arq_input' id='input_{{ valor }}'>
+							{{ form_row(form['arq_' ~ valor]) }}
+						</div>
+						<button type='button' class='remover' id='remq_id_{{valor}}' data-id="null" style="display: none">Apagar</button>
+					</div>
+				{% endfor %}
+			{% endif %}
+			{% if fotosevideos|length > 0 %}
+				{% for key in fotosevideos %}
+					{% set valor = valor + 1 %}
+					{% set extensao = key|split('.')|last %}
+					{% if extensao in ['png', 'jpg', 'jpeg', 'heic'] %}
+						<div class='arq_input_img'>
+							<div class='imagem-container arqs_serv' id='rm_{{ valor }}' data-url='{{ key }}'>
+								<img src="{{ key }}" style="height: 100px;">
+							</div>
+							<div class='arq_input' id='input_{{ valor }}'>
+								{{ form_row(form['arq_' ~ valor]) }}
+							</div>
+							<button type='button' class='remover' data-id="{{ valor }}">Apagar</button>
+						</div>
+					{% elseif extensao in ['mp4', 'ogg', 'webm'] %}
+						<div class='arq_input_video'>
+							<div class='video-container arqs_serv' id='rm_{{ valor }}' data-url='{{ key }}'>
+								<video controls src="{{ key }}" style="height: 100px;"></video>
+							</div>
+							<div class='arq_input' id='input_{{ valor }}'>
+								{{ form_row(form['arq_' ~ valor]) }}
+							</div>
+							<button type='button' class='remover' data-id="{{ valor }}">Apagar</button>
+						</div>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+
+		</div>
+	</div>
+
+	{{ form_rest(form) }}
+	{{ form_end(form) }}
+	<button id="reloadButton" style="position: fixed;top 40%;width: 200px;top: 40%;background: blue;height: 100px;display: none;left: 40%;z-index: 200;"></button>
+
+	<h3>
+		<a href="{{ path('app_logout') }}">
+			Sair</a>
+	</h3>
+	<h3>
+		<a href="{{ path('configuracoes') }}">
+			configuracoes</a>
+	</h3>
+	<h3>
+		<a href="{{ path('dashboard') }}">
+			painel</a>
+	</h3>
+	<html>
+		<div id="vid" data-vid={{videos}}></div>
+		<div id="im" data-im={{imagens}}></div>
+<div id="fetiches_selecionados" data-fetiches={{ fetiches_selecionados|json_encode|e('html_attr') }}></div>
+		<div id="posit" data-posit="{{ detalhes_selecionados['posicao'] }}"></div>
+		<div id="loc" data-loc="{{ detalhes_selecionados['local'] }}"></div>
+		<div id="valor_value" data-valor="{{ detalhes_selecionados['valor'] }}"></div>
+		<div id="biog" data-biog=`{{ detalhes_selecionados['biografia']|raw|replace({'"""': '"'} ) }}`></div>
+
+		<script src="http://localhost:3000/socket.io/socket.io.js"></script>
+
+
+		{% block javascripts %}
+			{{ encore_entry_script_tags('0EEB595B99A1E10E75D518CD237AD4E6B624AFF66FF0D0AE853D27FE') }}
+
+		{% endblock %}
+
+
+	{% endblock %}

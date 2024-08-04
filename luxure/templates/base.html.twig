@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html lang='pt-br'>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<title>
+		{% block title %}Welcome!{% endblock %}
+	</title>
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>">
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Spirax&display=swap" rel="stylesheet">
+
+
+
+
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('6226857A03360EE39D73C4915774DBFFBBF790DD2E71454CEC6F6CCD') }}
+        {{ encore_entry_link_tags('2263B472694502C71D809B1A2455848735913AD75EEEC2C5CDE905C3') }}
+    {% endblock %}
+	
+</head>
+
+<body>
+	<div id='body-js' style='display: none;'>
+
+		<script>
+			document.getElementById('body-js').style.display = 'block';
+		</script>
+		<header>
+		<div id='linha'>
+		<span class="linhas l1"></span>
+		<span class="linhas l2"></span>
+		<span class="linhas l3"></span>
+		</div>
+		<nav id="menu">
+			<ul id="nav_menu">
+				<li>Home</li>
+				<li>Acompanhantes</li>
+				<li id="logo"><div><img src="{{ asset('img/logo_luxure.png') }}" alt='logo'><p>Luxure Select</p></li>
+				<li>Anuncie Aqui</li>
+				<li>Contato</li>
+			</ul>
+		</nav>
+		</header>
+		{% block body %}{% endblock %}
+
+	</div>
+
+	<noscript>
+		<div class="no-js-message">
+			JavaScript está desativado. Por favor, ative o JavaScript para uma melhor experiência.
+		</div>
+	</noscript>
+	<div id="js-check" class="no-js-message">
+		Se você está vendo esta mensagem, o JavaScript está desativado.
+	</div>
+	<script>
+		document.getElementById('js-check').style.display = 'none';
+	</script>
+
+	{% block javascripts %}
+	{{ encore_entry_script_tags('29E4DBFBF4EA89EEDD8E8AF12C283AF5BF7C161A09AB19C91FE13435') }}
+	{% endblock %}
+</body>
+
+</html>

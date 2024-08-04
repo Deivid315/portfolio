@@ -1,0 +1,39 @@
+framework:
+    messenger:
+
+        transports:
+
+            sqs:
+                dsn: '%env(MESSENGER_TRANSPORT_DSN_SQS)%'
+                retry_strategy:
+                    max_retries: 3
+                    delay: 5000
+                    multiplier: 2
+                    max_delay: 60000
+                #failure_transport: mysql
+                failure_transport: failed
+                    
+            mysql:
+                dsn: '%env(MESSENGER_TRANSPORT_DSN_MYSQL)%'
+                retry_strategy:
+                    max_retries: 3
+                    delay: 10000
+                    multiplier: 2
+                    max_delay: 60000
+                failure_transport: failed
+
+            failed: 'doctrine://default?queue_name=failed'
+
+
+        default_bus: messenger.bus.default
+
+        buses:
+            messenger.bus.default: []
+
+        routing:
+            #Symfony\Component\Mailer\Messenger\SendEmailMessage: mysql
+            Symfony\Component\Mailer\Messenger\SendEmailMessage: sqs
+            Symfony\Component\Notifier\Message\ChatMessage: sqs
+            Symfony\Component\Notifier\Message\SmsMessage: sqs
+            App\Message\EditarConta\ProcessarEdicoesMessage: sqs
+            App\Message\EditarConta\PrimeiroEnvioMessage: sqs

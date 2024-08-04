@@ -1,0 +1,96 @@
+@mixin flex()
+    display: flex
+    align-items: center
+    justify-content: center
+    
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+  
+html, body
+    line-height: 1.6
+    font-family: "Spirax", serif
+    font-style: normal
+    background-color: white
+  
+a
+    text-decoration: none
+    color: inherit
+
+$border: .2vw solid white
+    
+#linha
+    display: none
+
+#logo
+    transition: background-color .3s ease-in-out
+    width: 15%
+    padding: 0 1.5vw .5vw 1.5vw
+    border-bottom: .2vw solid #ff6a9e
+    border-bottom-left-radius: 2vw
+    border-bottom-right-radius: 2vw
+    div
+        @include flex
+        flex-direction: row
+        gap: 1vw
+        img
+            width: 25%
+            height: auto
+        p
+            font-weight: bold
+            background: linear-gradient(180deg, #ff6a9e 50%, #ffffff 100%)
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            font-size: 1.8vw
+
+#menu
+    width: 100vw
+
+#nav_menu
+    z-index: 100
+    width: 100%
+    position: fixed
+    margin: 0
+    list-style: none
+    @include flex
+    gap: 5vw
+    font-size: 1.2vw
+    color: #ffffff
+    transition: width 0.3s ease-in-out
+    li:not(:nth-child(3))
+        cursor: pointer
+        @include flex
+        text-align: center
+        width: 12vw
+        height: 3vw
+        border-bottom: .2vw solid #ffffff
+        transition: border-bottom 0.3s ease-in-out, border-radius 0.3s ease-in-out, align-items 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out
+    li:not(:nth-child(3)):hover
+        border-radius: 2vw
+        background-color: white
+        color: #ff6a9e
+
+.efeito_menu
+    background-color: #ffffffd7
+    transition: background-color .3s ease-in-out
+    color: #ff6a9e !important
+    #logo
+        transition: background-color .3s ease-in-out
+        background-color: #ffffff
+    li:not(:nth-child(3))
+        font-weight: bold
+        text-decoration: underline #ffffff
+        border-bottom: none !important
+    li:not(:nth-child(3)):hover
+        font-weight: normal
+        background-color: #ff6a9e !important
+        color: #ffffff !important
+
+// ul li:not(:nth-child(3))::before
+//     content: ''
+//     width: 10vw
+//     position: absolute
+//     height: 22px
+//     background: yellow
+

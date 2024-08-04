@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Finalizando Informações
+{% endblock %}
+
+{% block body %}
+	<pre>
+	{{ dump(usercompleto) }}
+</pre>
+	{% if envio is not null %}
+		<div style="background-color: yellow; align-items: center; justify-content: center; width: 800px; height: 200px; position: fixed; display: flex; top: 40%; rigth: 20%; z-index: 10;">
+			Aguarde enquanto processamos seus arquivos</div>
+			<script>
+document.addEventListener("DOMContentLoaded", (event)=>{
+    document.getElementById('finalizando_cadastro_form_save').setAttribute('disabled', '');
+})
+</script>
+	{% endif %}
+	<h1>Bem-vinda
+		{{ user }}</h1>
+
+	{# templates/product/new.html.twig #}
+	<h2>Preencha o restante das informações para finalizar o seu cadastro</h2>
+
+	{% if retorno is defined %}
+		{% for ret in retorno %}
+			<h4>{{ ret }}</h4>
+		{% endfor %}
+	{% endif %}
+
+	{{ form_start(form, {'attr': {'id': 'form_edicao' }}) }}
+	<div class='arq_input_img_capa'>
+
+		<div class='arq_input' id='input_0'>
+			{{ form_row(form.capa) }}
+		</div>
+
+	</div>
+
+	{{ form_rest(form) }}
+	{{ form_end(form) }}
+	<button id="reloadButton" style="position: fixed;top 40%;width: 200px;top: 40%;background: blue;height: 100px;display: none;left: 40%;z-index: 200;"></button>
+
+</script>
+{% block javascripts %}
+	{{ encore_entry_script_tags('409FA22CE8C2788ED56012D1F9A736C730DB2C0DA9827607DF53C1894B7B4767F1264ADAD8473C1377427A853B0FEADB') }}
+{% endblock %}{% endblock %}

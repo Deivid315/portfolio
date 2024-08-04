@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Trocar Senha
+{% endblock %}
+{% form_theme form 'form_theme.html.twig' %}
+{% block body %}
+	<h1>trocar senha</h1>
+
+	<h1>Trocar Senha</h1>
+
+	{{ form_start(form) }}
+	{{ form_row(form.url) }}
+	{{ form_rest(form) }}
+	{{ form_end(form) }}
+
+
+{% endblock %}

@@ -1,0 +1,86 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Configurações
+{% endblock %}
+
+{% block body %}
+	<h1>Alterar dados</h1>
+
+	{% for alerta in app.flashes('alerta') %}
+
+		<h1 style='color: red;'>
+			{{ alerta }}</h1>
+
+	{% endfor %}
+	{% for sucesso in app.flashes('sucesso') %}
+
+		<h1 style='color: green;'>
+			{{ sucesso }}</h1>
+
+	{% endfor %}
+
+	<h2>Senha e Segurança</h2>
+	{{ form_start(formulario_senha, {'attr': {'id': 'senha_form'}}) }}
+	{{ form_row(formulario_senha.username, {'attr': {'value': user.email}}) }}
+	{{ form_rest(formulario_senha) }}
+
+	{{ form_end(formulario_senha) }}
+
+	<h2>Dados Pessoais</h2>
+	{{ form(formulario_email, {'attr': {'id': 'email_form'}}) }}
+
+	{{ form(formulario_username, {'attr': {'id': 'email_form'}}) }}
+
+
+	{{ form(formulario_alcunha, {'attr': {'id': 'alcunha_form'}}) }}
+
+
+	{{ form(formulario_telefone, {'attr': {'id': 'telefone_form'}}) }}
+
+
+	{{ form(formulario_nascimento, {'attr': {'id': 'nascimento_form'}}) }}
+
+	<h2>Notificações</h2>
+	Mensagens do sistema:
+
+	{% if user.conteudosdaconta.notificacoes is not empty %}
+		{% for msn in user.conteudosdaconta.notificacoes %}
+			<h4>{{ msn }}</h4>
+		{% endfor %}
+
+		<form action="{{ path('configuracoes') }}" method="post" id="deletar_mensagens_form">
+			<input type="hidden" name="mensagem" value="deletar_todas_mensagens_{{user.email}}">
+			<button type="submit">Deletar Mensagens</button>
+		</form>
+
+	{% else %}
+		Você não possue notificações no momento
+	{% endif %}
+
+	<h2>Visibilidade da conta</h2>
+
+	{% if user.status is same as('ONLINE') %}
+		<h3>Ocultar Conta:</h3>
+		<form method="post" id="ocultar_conta_form">
+			<input type="hidden" name="status_da_conta" value="ocultar_conta_{{ user.email }}">
+			<input type="hidden" name="token_ocultar" value="{{ csrf_token('ocultar-item') }}">
+			<button type="submit">Ocultar conta</button>
+		</form>
+	{% else %}
+		<h3>Mostrar Conta:</h3>
+		<form method="post" id="ocultar_conta_form">
+			<input type="hidden" name="status_da_conta" value="mostrar_conta_{{ user.email }}">
+			<input type="hidden" name="token_mostrar" value="{{ csrf_token('mostrar-item') }}">
+			<button type="submit">Mostrar conta</button>
+		</form>
+	{% endif %}
+
+	<h3>Deletar Conta</h3>
+
+
+	{{ form(formulario_deletar, {'attr': {'id': 'deletar_form'}}) }}
+
+	{{ form_end(formulario_deletar) }}
+
+
+{% endblock %}

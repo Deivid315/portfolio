@@ -1,0 +1,73 @@
+@mixin flex()
+    display: flex
+    align-items: center
+    justify-content: center
+    
+@media screen and (max-width: 1000px)
+    
+    #linha
+        @include flex
+        width: 50px
+        height: 50px
+        flex-direction: column 
+        position: fixed
+        z-index: 101
+        right: 20px
+        top: 20px
+        cursor: pointer
+        transition: transform .3s ease-in-out, gap .3s ease-in-out 
+        gap: 8px
+        span
+            transition: position .3s ease-in-out, opacity .3s ease-in-out
+            background-color: #ffffff
+            width: 50px
+            height: 5px
+
+    #menu
+        width: 100vw
+
+    #nav_menu    
+        min-height: 500px
+        height: 100vh
+        width: 0
+        right: 0
+        background-color: rgb(0 0 0 / 71%)
+        flex-direction: column
+        gap: 50px
+        font-size: 25px
+        border-radius: 10% 0 0 10%
+        overflow-x: hidden
+        overflow-y: auto
+        #logo
+            position: absolute
+            width: auto
+            padding: 0
+            top: 0
+            border: 0
+            border-bottom-left-radius: 20px
+            border-bottom-right-radius: 20px
+            div
+                gap: 0
+                width: 110px
+                img
+                    width: 90px
+                p
+                    display: none
+        li:not(:nth-child(3))
+            width: auto
+            height: auto
+            border-bottom: 0.2px solid #ffffff
+
+    .efeito_menu
+        color: #ffffff !important
+        #logo
+            background-color: #ffffff85
+        li:not(:nth-child(3))
+            font-weight: normal
+
+    #combo_f_v
+        p
+            width: 80%
+            text-align: center
+            font-size: 28px !important
+

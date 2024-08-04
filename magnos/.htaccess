@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^/]+)/$ $1.html [L]
+
+Options -Indexes
+
+php_flag log_errors on
+php_value error_reporting 32767
+php_value error_log "error_log.txt"

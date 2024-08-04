@@ -1,0 +1,16 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Trocar Senha{% endblock %}
+{% block body %}
+
+{% for message in app.flashes('conta_confirmada_com_sucesso') %}
+    <div class="flash-notice">
+        Sua conta foi confirmada com sucesso! Faça login agora: <a href="{{path('app_login')}}">login agora</a>
+    </div>
+{% endfor %}
+
+<h1> {{ texto }}</h1>
+
+    
+{% endblock %}

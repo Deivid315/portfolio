@@ -1,0 +1,45 @@
+{
+    "menu": {
+      "home": "Página Inicial",
+      "servicos": "Serviços",
+      "estude": "Estude nos EUA",
+      "planejamento": "Planejamento",
+      "contato": "Contato",
+      "sobrenos": "Sobre Nós"
+    },
+    "contato":{
+        "pt1": "O que podemos fazer por você hoje?",
+        "pt2": "Seja para discutir oportunidades de parceria, esclarecer dúvidas sobre nossos produtos/serviços ou simplesmente para dizer um 'olá', estamos prontos para ouvir você. Utilize o formulário abaixo para nos enviar uma mensagem e faremos o possível para retornar o mais rápido possível."
+    },
+    "cab":{
+        "pt1": "Deixe sua mensagem que em breve entraremos em contato!",
+        "pt2": "E-mail:",
+        "pt3": "Nome:",
+        "pt4": "Telefone:",
+        "pt5": "Como podemos te ajudar?",
+        "pt6": "Enviar"
+    },
+    "perg":{
+        "pt1": "Estou nos Estados Unidos com visto de turismo, posso estudar?",
+        "pt2": "Estou nos Estados Unidos e meu tempo de permanência autorizada esta chegando ao fim, posso ficar mais tempo?",
+        "pt3": "É preciso ter passagem aérea comprada para solicitar um visto?",
+        "pt4": "Preciso saber inglês para viajar aos Estados Unidos?",
+        "pt5": "A Connection USA garante a aprovação do visto?",
+        "pt6": "Posso trabalhar com visto de estudante ou turismo?"
+    },
+    "resp":{
+        "pt1": "Sim! Para isso você deverá aplicar para uma Troca de Status, alterando o seu status de turismo para o de estudante. O mesmo vale para a situação inversa. Nossa equipe está preparada para te ajudar, e temos 100% de aprovação.",
+        "pt2": "Sim! Para isso você deverá aplicar para uma Extensão de Status, que te permite ficar por mais 6 meses no pais. Entre em contato com a nossa equipe de especialistas para saber mais informações!",
+        "pt3": "A nossa orientação é de que a compra de passagens e reserva em hotéis seja realizada somente após a aprovação do visto.",
+        "pt4": "Não! Se o seu interesse for estudar inglês, temos diversas escolas parceiras que possuem métodos de ensino da língua desde o nível mais básico até o mais avançado.",
+        "pt5": "Não! O que te garantimos é um processo completo e minuncioso! Te acompanhamos desde o seu planejamento até a sua entrevista, dando todo o suporte necessário para que o seu processo seja o mais acertivo e seguro possível.",
+        "pt6": "Não! O visto de turismo não dá permissão de trabalho. Em algumas situações, com o visto ou status de Estudante, você pode trabalhar no próprio Campus da sua escola, ou aplicar para programas como o OPT e CPT, que são oferecidos em cursos superiores. Sem essas autorizações, o visto por si só não te permite trabalhar legalmente no país."
+    },
+    "infoheader": {
+      "pt1": " A SUA MELHOR CONEXÃO NO EXTERIOR!",
+      "pt2": "Saiba mais",
+      "pt3": " 'Tudo posso naquele que me fortalece.' (Filipenses 4:13)",
+      "pt4": "Política de Privacidade"
+    },
+    "desenvolvedor": "2024 © Desenvolvido por Magnos. Todos os direitos reservados"
+  }

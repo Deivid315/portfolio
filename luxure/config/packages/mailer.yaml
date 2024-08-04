@@ -1,0 +1,7 @@
+framework:
+    mailer:
+        dsn: '%env(MAILER_DSN)%'
+        envelope:
+            sender: 'contato@magnossites.com'
+        headers:
+            From: 'Magnos Sites <contato@magnossites.com>'

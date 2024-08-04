@@ -1,0 +1,46 @@
+{
+    "menu": {
+      "home": "Página de Inicio",
+      "servicos": "Servicios",
+      "estude": "Estudiar en EUA",
+      "planejamento": "Planificación",
+      "contato": "Contacto",
+      "sobrenos": "Sobre Nosotros"
+    },
+    "contato":{
+        "pt1": "¿En qué podemos ayudarle hoy?",
+        "pt2": "Ya sea para discutir oportunidades de colaboración, aclarar dudas sobre nuestros productos/servicios o simplemente saludarnos, estamos aquí para escucharle. Utilice el formulario a continuación para enviarnos un mensaje y haremos todo lo posible para responderle lo antes posible."
+    },
+    "cab":{
+        "pt1": "Deje su mensaje y nos pondremos en contacto pronto!",
+        "pt2": "Correo electrónico:",
+        "pt3": "Nombre:",
+        "pt4": "Teléfono:",
+        "pt5": "¿Cómo podemos ayudarle?",
+        "pt6": "Enviar"
+    },
+    "perg":{
+        "pt1": "Estoy en los Estados Unidos con visa de turista, ¿puedo estudiar?",
+        "pt2": "Estoy en los Estados Unidos y mi tiempo de estadía autorizado está llegando a su fin, ¿puedo quedarme más tiempo?",
+        "pt3": "¿Necesito comprar un boleto de avión para solicitar una visa?",
+        "pt4": "¿Es necesario saber inglés para viajar a los Estados Unidos?",
+        "pt5": "A Connection USA garante la aprobación de la visa?",
+        "pt6": "¿Puedo trabajar con una visa de estudiante o de turista?"
+    },
+    "resp":{
+        "pt1": "¡Sí! Para ello, deberá solicitar un Cambio de Estatus para cambiar su estatus de turista a estudiante. Lo mismo se aplica en la situación inversa. Nuestro equipo está preparado para ayudarlo, y tenemos un índice de aprobación del 100%.",
+        "pt2": "¡Sí! Para hacerlo, deberá solicitar una Extensión de Estadía, que le permitirá permanecer en el país por hasta 6 meses adicionales. ¡Comuníquese con nuestro equipo de especialistas para obtener más información!",
+        "pt3": "Nuestra recomendación es que espere a comprar boletos de avión y reservar hoteles solo después de que se apruebe la visa.",
+        "pt4": "¡No! Si estás interesado en estudiar inglés, contamos con varias escuelas asociadas que ofrecen métodos de enseñanza del idioma desde el nivel más básico hasta el más avanzado.",
+        "pt5": "¡No! Lo que garantizamos es un proceso completo y minucioso. Te acompañamos desde la planificación hasta la entrevista, brindándote todo el soporte necesario para que tu proceso sea lo más preciso y seguro posible.",
+        "pt6": "¡No! La visa de turismo no otorga permiso de trabajo. En algunas situaciones, con la visa o estatus de estudiante, puede trabajar en el campus de su escuela o aplicar a programas como OPT y CPT, que se ofrecen en cursos superiores. Sin estas autorizaciones, la visa por sí sola no le permite trabajar legalmente en el país."
+    },
+    "infoheader": {
+      "pt1": " TU MEJOR CONEXIÓN EN EL EXTRANJERO!",
+      "pt2": "Más información",
+      "pt3": " 'Todo lo puedo en Cristo que me fortalece.' (Filipenses 4:13)",
+      "pt4": "Política de privacidad"
+    },
+    "desenvolvedor": "2024 © Desarrollado por Magnos. Todos los derechos reservados"
+  
+}

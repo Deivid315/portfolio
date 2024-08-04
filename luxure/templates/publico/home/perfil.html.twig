@@ -1,0 +1,102 @@
+{# templates/security/login.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	{% if erro is defined %}
+		Luxure Select
+	{% else %}
+		{{ perfil['alcunha'] }}
+	{% endif %}
+{% endblock %}
+
+{% block body %}
+	{% if erro is defined %}
+		<h2>Houve um erro em nossos serviçox, tente novamente mais tarde</h2>
+	{% else %}
+
+		<h1>{{ perfil['alcunha'] }}</h1>
+		<div style="display: flex; gap: 2vw; background-color: blue; justify-content: space-around;">
+			<div>
+				<h2>foto de perfil</h2>
+				<img src="{{ perfil['capa'] }}" alt="foto de perfil" style="width: 10vw; height: 17.7vw;">
+				<div>
+					{{ perfil['arquivos'].detalhes.biografia }}
+				</div>
+				<div>
+					Sexualidade:
+					{{ perfil['arquivos'].detalhes.sexualidade }}
+				</div>
+				<div>
+					Valor por hora: R$
+					{{ perfil['arquivos'].detalhes.valor }},00
+				</div>
+				<div>
+				{% set estado = perfil['atendimento']| keys | first %}
+					Atendimento: estado: {{ estado }}; cidades: 
+					{% for area in perfil['atendimento'][estado] %}
+					{{ area }},
+					{% endfor %}
+				</div>
+				<div>
+					Local:
+					{{ perfil['arquivos'].detalhes.local }}
+				</div>
+				<div>
+					Cabelo:
+					{{ perfil['arquivos'].detalhes.cabelo }}
+				</div>
+				<div>
+					Etnia:
+					{{ perfil['arquivos'].detalhes.etnia }}
+				</div>
+				<div>
+					Posição:
+					{{ perfil['arquivos'].detalhes.posicao }}
+				</div>
+				<div>
+					Idade:
+					{{ ("now"|date("Y") - perfil['nascimento']|date("Y")) }}
+					anos
+				</div>
+				<div>
+					Peso/Altura:
+					{{ perfil['arquivos'].detalhes.peso }}
+					kg /
+					{{ perfil['arquivos'].detalhes.altura }}
+					m
+				</div>
+				{% if perfil['arquivos'].detalhes.fetiches is not empty and perfil['arquivos'].detalhes.fetiches is iterable %}
+					<div>Fetiches:
+						{{ perfil['arquivos'].detalhes.fetiches|join(', ') }}</div>
+				{% endif %}
+
+				{% for key in perfil['arquivos'].fotosevideos %}
+					{% set extensao = key|split('.')|last %}
+					{% if extensao in ['png', 'jpg', 'jpeg', 'heic'] %}
+						<div class='imagem-container arqs_serv'>
+							<img src="{{ key }}" style="width: 10vw; height: 17.7vw;">
+						</div>
+					{% elseif extensao in ['mp4', 'ogg', 'webm'] %}
+						<div class='video-container arqs_serv'>
+							<video controls src="{{ key }}" style="width: 10vw; height: 17.7vw;"></video>
+						</div>
+					{% endif %}
+				{% endfor %}
+
+				<h2>
+					<a href="https://wa.me/55{{perfil['celular']}}" target="blank">Whatsapp</a>
+				</h2>
+
+			</div>
+		</div>
+
+	{% endif %}
+	<p>
+		<a href=" {{path('app_login')}}">clique pra fazer login</a>
+	</p>
+	<p>
+		<a href=" {{path('app_register')}}">clique pra se cadastrar</a>
+	</p>
+
+{% endblock %}

@@ -1,0 +1,160 @@
+@mixin flex()
+    display: flex
+    align-items: center
+    justify-content: center
+    
+@media screen and (max-width: 1000px)
+    
+    #combo_f_v
+        p
+            width: 80%
+            text-align: center
+            font-size: 28px !important
+
+    #sobre_nos
+        height: auto
+        justify-content: space-between
+        div:nth-child(1)
+            min-height: 70px
+            h1
+                font-size: 21px
+        div:nth-child(2)
+            margin: 60px 0 60px 0
+            flex-wrap: wrap
+            gap: 20px
+            p
+                border-radius: 10px
+                width: 100%
+                font-size: 16px
+                padding: 10px 25px 10px 25px 
+            img
+                width: 180px
+                height: 180px
+
+    #localizacao_sass
+        width: 100vw
+        p
+            margin-top: 10px
+            font-size: 17px
+        div
+            h1
+                font-size: 20px
+            p
+                font-size: 14px
+        form
+            margin-bottom: 11px
+            gap: 11px
+            div
+                div
+                    label
+                        font-size: 17px
+                    select
+                        font-size: 17px
+                        border-radius: 11px
+                    select::-webkit-scrollbar
+                        border-top-right-radius: 8px
+                        border-bottom-right-radius: 8px
+                    select::-webkit-scrollbar-thumb
+                        border-top-right-radius: 8px
+                        border-bottom-right-radius: 8px
+                div:nth-child(2)
+                    margin-top: 8px
+                    select
+                        width: 200px
+                        height: 100px
+                    select::before
+                        width: 200px
+                        height: 100px
+            button
+                margin-top: 10px
+                font-size: 17px
+                border-radius: 15px
+                border: 1px solid black
+                padding-top: 5px
+                padding-bottom: 5px
+                padding-left: 30px
+                padding-right: 30px
+
+
+    #busca
+        width: 100vw
+        display: flex
+        justify-content: center
+        h1
+            text-align: center
+
+    #form_busca
+        width: 70%
+        height: auto
+        #form-ajax
+            border-radius: 10px
+            padding: 0
+            div
+                border-radius: 10px
+                width: 200px
+                padding-bottom: 10px
+                margin: 8px
+                label
+                    width: 100%
+                    font-size: 16px
+                    font-weight: bolder
+                input
+                    height: 28px
+                    border: 1px solid black
+                    font-size: 15px
+                    border-radius: 10px
+                select
+                    font-size: 15px
+                    border-radius: 10px
+            #fet_
+                #busca_form_fetiches
+                    width: 100%
+                    border-top-right-radius: 20px
+                    border-bottom-right-radius: 20px
+                    div
+                        padding-left: 10px
+                        padding-right: 10px
+            div::-webkit-scrollbar
+                border-top-right-radius: 10px
+                border-bottom-right-radius: 10px
+            #output
+                border-radius: 10px
+                margin-top: 10px
+        button
+            margin-top: 10px
+            font-size: 16px
+            border-radius: 10px
+            border: 0.5px solid black
+            background-color: #ffffff
+            padding-top: 6px
+            padding-bottom: 6px
+            padding-left: 50px
+            padding-right: 50px
+
+@media screen and (max-width: 900px)
+    
+    #form_busca
+        width: 70%
+        #form-ajax
+            #fet_
+                div:nth-child(1)
+                    flex-direction: column
+                    flex-wrap: wrap
+                    div
+                        label
+                            width: auto
+                        input
+                            margin-left: 20px
+                            margin-right: 0
+
+@media screen and (max-width: 650px)
+    #form_busca
+        width: 95%
+        #form-ajax
+            background-color: #000000a9
+            border-radius: 10px
+            padding: 10px
+            div
+                border-radius: 10px
+                background-color: #ffffff
+                width: 200px

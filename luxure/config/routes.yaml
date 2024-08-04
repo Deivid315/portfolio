@@ -1,0 +1,80 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+teste:
+    path: /SentryTestController
+    controller: App\Controller\SentryTestController::testLog
+    
+teste2:
+    path: /transport
+    controller: App\Controller\DefaultController::asyncExample
+
+home:
+    path: /
+    controller: App\Controller\Home\HomeController::home
+    
+usuario:
+    path: /perfil/{username}
+    controller: App\Controller\Home\HomeController::usuario
+
+# início === rotas para criação de conta
+app_register:
+    path: /cadastro
+    controller: App\Controller\CreateAccountForm\RegistrationController::register
+
+confirm_link:
+    path: /confirm/{value}
+    controller: App\Controller\CreateAccountForm\OpcoesLogin\ConfirmLinkController::confirmLink
+
+# fim === rotas para criação de conta
+
+
+# início === rotas para login, logout e troca de senha
+app_login:
+    path: /login
+    controller: App\Controller\CreateAccountForm\Login\LoginController::login
+
+app_login_admin:
+    path: /admin
+    controller: App\Controller\CreateAccountForm\Login\LoginController::admin
+
+app_logout:
+    path: /logout
+    controller: App\Controller\CreateAccountForm\Logout\LogoutController::logout
+
+trocar_senha:
+    path: /login/trocar-senha
+    controller: App\Controller\CreateAccountForm\Senha\RecuperarSenhaController::verifique
+
+trocar_senha_validada:
+    path: /login/trocar-senha/form/{token}
+    controller: App\Controller\CreateAccountForm\Senha\TrocarSenhaController::troque
+    
+pag_universal:
+    path: /conta/info/{value}
+    controller: App\Controller\CreateAccountForm\Mensagem\UniversalController::universal
+
+# fim === rotas para login, logout e troca de senha
+
+
+# início === rotas para usuário logado - edição de perfil
+
+finalize:
+    path: /finalizando-cadastro
+    controller: App\Controller\Logado\FinalizandoCadastro\FinalizandoCadController::finalizandoInfo
+
+dashboard:
+    path: /user/painel
+    controller: App\Controller\Logado\DashboardController::painel
+
+editar_perfil:
+    path: /user/painel/editar-perfil
+    controller: App\Controller\Logado\DashboardController::editar
+    
+configuracoes:
+    path: /user/painel/configuracoes
+    controller: App\Controller\Logado\Configuracoes\ConfiguracoesController::config
+    

@@ -1,0 +1,46 @@
+{
+    "menu": {
+        "home": "Home",
+        "servicos": "Services",
+        "estude": "Study In USA",
+        "planejamento": "Planning",
+        "contato": "Contact",
+        "sobrenos": "About Us"
+    },
+    "contato":{
+        "pt1": "How can we assist you today?",
+        "pt2": "Whether it's discussing partnership opportunities, clarifying questions about our products/services, or simply saying hello, we're ready to listen to you. Please use the form below to send us a message, and we'll strive to get back to you as soon as possible."
+    },
+    "cab":{
+        "pt1": "Leave your message and we will contact you shortly!",
+        "pt2": "Email:",
+        "pt3": "Name:",
+        "pt4": "Phone:",
+        "pt5": "How can we help you?",
+        "pt6": "Send"
+    },
+    "perg":{
+        "pt1": "I'm in the United States on a tourist visa, can I study?",
+        "pt2": "I am in the United States and my authorized stay is coming to an end. Can I stay longer?",
+        "pt3": "Do I need to purchase an airline ticket to apply for a visa?",
+        "pt4": "Do I need to speak English to travel to the United States?",
+        "pt5": "Does Connection USA guarantee visa approval?",
+        "pt6": "Can I work with a student or tourist visa?"
+    },
+    "resp":{
+        "pt1": "Yes! To do so, you will need to apply for a Change of Status, switching your status from tourist to student. The same applies vice versa. Our team is prepared to assist you, and we have a 100% approval rate.",
+        "pt2": "Yes! To do so, you will need to apply for an Extension of Status, which allows you to remain in the country for up to an additional 6 months. Contact our team of specialists for more information!",
+        "pt3": "Our recommendation is to wait until after your visa has been approved before purchasing airline tickets and booking hotels.",
+        "pt4": "No! If your interest is to study English, we have partnership with several schools that offer language teaching methods from the most basic to the most advanced levels.",
+        "pt5": "No! What we guarantee is a thorough and comprehensive process! We accompany you from your planning stages through to your interview, providing all the necessary support to ensure that your process is as accurate and secure as possible.",
+        "pt6": "No, a tourist visa does not permit employment. In some situations, with a Student visa or status, you may work on your school's campus or apply for programs such as OPT and CPT, which are available for higher education courses. Without these authorizations, the visa itself does not allow you to work legally in the country."
+    },
+    "infoheader": {
+      "pt1": " YOUR BEST CONNECTION ABROAD!",
+      "pt2": "Learn more",
+      "pt3": " 'I can do all things through Christ who strengthens me.' (Philippians 4:13)",
+      "pt4": "Privacy Policy"
+    },
+    "desenvolvedor": "2024 © Developed by Magnos. All rights reserved"
+  
+}

@@ -1,0 +1,138 @@
+{# templates/security/login.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Home
+{% endblock %}
+
+{% block stylesheets %}
+	{{ parent() }}
+	{{ encore_entry_link_tags('309A9EDD7751DED9657D53881A831FD825A8CC651821CE90B84EC7E5') }}
+	{{ encore_entry_link_tags('F4273B66135294FBEE17F7331D048618CA68F28A5BE3515DC9FCA384E0FABAB7') }}
+{% endblock %}
+
+{% block body %}
+
+	<section id="combo_f_v">
+		<video src="{{ asset('img/intro_luxure.mp4') }}" id="video_intro" loop muted autoplay></video>
+		<p class="gradient-text">Explore os limites da
+			<span>luxúria</span>
+			e<br>
+			alcance o prazer
+			<span>selecionado</span>
+		</p>
+	</section>
+
+	<section id="sobre_nos">
+		<div>
+			<h1>Está em busca de prazer?</h1>
+		</div>
+		<div id="frase_sobre_nos">
+			<p>Na Luxure Exclusive, você encontra tudo isso e muito mais. Nosso compromisso é com a excelência e a satisfação dos nossos clientes. Cada encontro é planejado para garantir que cada momento seja inesquecível. As modelos e acompanhantes da Luxure Exclusive são incrivelmente atraentes e altamente profissionais, prontas para atender a todas as suas expectativas.
+
+				<br>Não perca a oportunidade de se aventurar no nosso mundo de luxúria. Mergulhe de cabeça no universo exclusivo da Luxure Exclusive e descubra um novo patamar de prazer e sofisticação.</p>
+			<img src="{{ asset('img/flor.png') }}" alt="flor rosa">
+		</div>
+	</section>
+	<section id='localizacao_sass'>
+
+		<div>
+			<h1>Insira sua localização:</h1>
+			<p>OBS: você pode selecionar até 3 cidades do mesmo estado ao mesmo tempo</p>
+		</div>
+
+		<form id="estado_cidade" method="post" action="{{ path('home') }}" novalidate>
+			<p id="alerta_c_e" style="color: white; font-weight: bolder"></p>
+			<div>
+				<div>
+					<label for="estado">Estado:</label>
+					<select id="estado" name="estado">
+						<option value="">Selecione o estado</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="cidades">Cidades:</label>
+					<select
+						id="cidades" name="cidades[]" multiple><!-- Cidades serão carregadas aqui -->
+					</select>
+				</div>
+				<input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+			</div>
+			<button type="submit" class="subm">Buscar</button>
+		</form>
+		<p id='locl'></p>
+	</section>
+
+	<div id="destaque" style="display: none;">
+		<h1>Destaques:</h1>
+		<div id='perfis_destacados' style="display: flex;"></div>
+	</div>
+
+	<section id="busca">
+		<div id="form_busca">
+			<div>
+				<h1>Busca:</h1>
+				{{ form_start(form, {attr: {'id': 'form-ajax'}}) }}
+				<h3>{{ form_errors(form) }}</h3>
+				{% for child in form %}
+					{% if child.vars.name != 'fetiches' %}
+						{{ form_row(child) }}
+					{% endif %}
+				{% endfor %}
+
+				<div id='fet_'>
+
+					{{ form_label(form.fetiches) }}
+					<div id="busca_form_fetiches">
+						{% for choice in form.fetiches %}
+							<div>
+								{{ form_widget(choice) }}
+								{{ form_label(choice) }}
+							</div>
+						{% endfor %}
+					</div>
+
+					<div id="output">
+						<h3>Fetiches selecionados:</h3>
+						<p id="fetichesText"></p>
+					</div>
+				</div>
+				<button type="submit" class="subm">Filtrar</button>
+				{{ form_end(form) }}
+			</div>
+
+			<div id="filtro">
+				Filtros
+			</div>
+			<div>
+				{{ form_start(formtodos, {attr: {'id': 'todos_localizacao_formulario'}}) }}
+				<h3>{{ form_errors(formtodos) }}</h3>
+				{{ form_rest(formtodos) }}
+				<p id="alerta_elemento" style="color: red;"></p>
+				<button type="submit" class="subm">Todos os perfis</button>
+				{{ form_end(formtodos) }}
+			</div>
+		</div>
+
+	</section>
+	<div id="todos_ar">
+		<div id="carregando" style="width: 50%; height: 50%; background-color: pink; display: none;"></div>
+		<div id='notificacao'></div>
+		<div id="arqs"></div>
+
+	</div>
+
+	<p>
+		<a href=" {{path('app_login')}}">clique pra fazer login</a>
+	</p>
+	<p>
+		<a href=" {{path('app_register')}}">clique pra se cadastrar</a>
+	</p>
+
+	{% block javascripts %}
+		{{ parent() }}
+		{{ encore_entry_script_tags('9C8FF948DB629C22507F0D68DD22C877932084A31F706E7B1FE470F3') }}
+
+	{% endblock %}
+{% endblock %}

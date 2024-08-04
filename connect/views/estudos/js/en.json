@@ -1,0 +1,35 @@
+{
+    "menu": {
+        "home": "Home",
+        "servicos": "Services",
+        "estude": "Study In USA",
+        "planejamento": "Planning",
+        "contato": "Contact",
+        "sobrenos": "About Us"
+    },
+    "tit":{
+        "pt1": "Embark on your ",
+        "pt2": "interexchange program",
+        "pt3": " with CONNECTION USA to study in the ",
+        "pt4": "United States."
+    },
+    "text": "Turn your academic dreams into reality with CONNECTION USA! We provide comprehensive support for your program, guiding you towards a unique educational experience in the United States. Count on us to pave the ideal path for you and immerse yourself in enriching learning. Join this international student community and create unforgettable memories!",
+    "esc": "Associated Schools of Connection USA",
+    "roma":{
+        "pt1": "Thinking about applying for your visa?",
+        "pt2": "Facilitate your journey and let us handle the bureaucracy! Whether it's for study, tourism, or any other category, we're here to simplify your process. Rely on our expertise for guidance and support, ensuring your experience is hassle-free. Apply for your visa with us and get ready to explore new horizons with confidence and peace of mind!"
+    },
+    "troc":{
+        "pt1": "Considering changing your status?",
+        "pt2": "Ready for a change? If you're looking to change your status, we're here to guide you. Count on our specialized assistance to facilitate the transition, whether it's for study, work, or other purposes. Transform your experience in the United States with us, ensuring a smooth and efficient process!"
+    },
+    "mot": "'Dare to travel, discover courage in unknown horizons.'",
+    "infoheader": {
+      "pt1": " YOUR BEST CONNECTION ABROAD!",
+      "pt2": "Learn more",
+      "pt3": " 'I can do all things through Christ who strengthens me.' (Philippians 4:13)",
+      "pt4": "Privacy Policy"
+    },
+    "desenvolvedor": "2024 © Developed by Magnos. All rights reserved"
+  
+}

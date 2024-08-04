@@ -1,0 +1,44 @@
+{
+    "devDependencies": {
+        "@babel/core": "^7.17.0",
+        "@babel/preset-env": "^7.16.0",
+        "@babel/preset-react": "^7.24.7",
+        "@hotwired/stimulus": "^3.0.0",
+        "@hotwired/turbo": "^7.1.1 || ^8.0",
+        "@symfony/stimulus-bridge": "^3.2.2",
+        "@symfony/ux-turbo": "file:vendor/symfony/ux-turbo/assets",
+        "@symfony/webpack-encore": "^4.6.1",
+        "core-js": "^3.23.0",
+        "postcss-loader": "^7.3.4",
+        "regenerator-runtime": "^0.13.9",
+        "sass": "^1.77.8",
+        "sass-loader": "^14.2.1",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.5.3",
+        "webpack": "^5.93.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.4",
+        "webpack-notifier": "^1.15.0"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "axios": "^1.7.2",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "helmet": "^7.1.0",
+        "js-cookie": "^3.0.5",
+        "jsonwebtoken": "^9.0.2",
+        "luxon": "^3.4.4",
+        "mercadopago": "^2.0.9",
+        "socket.io": "^4.7.5",
+        "socket.io-client": "^4.7.5",
+        "sodium-native": "^4.1.1"
+    }
+}

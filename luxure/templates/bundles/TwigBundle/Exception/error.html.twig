@@ -1,0 +1,9 @@
+{# templates/bundles/TwigBundle/Exception/error.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block title %}Erro {{ status_code }}{% endblock %}
+
+{% block body %}
+<h1>Erro {{ status_code }} - {{ status_text }}</h1>
+<p>{{ exception.message }}</p>
+{% endblock %}

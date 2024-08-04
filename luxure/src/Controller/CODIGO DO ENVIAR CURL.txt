@@ -1,0 +1,241 @@
+codigo extra do enviar curl:
+<?php
+
+declare(strict_types=1);
+
+namespace App\Security\EditarConta;
+
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\RequestException;
+
+class EnviarCurl
+{
+    public function envioCurl(array $cookies, array $msg): void
+    {
+        $header = [
+            'alg' => 'HS256',
+            'typ' => 'JWT'
+        ];
+        $header = json_encode($header);
+        $header = base64_encode($header);
+
+        $salve_serializado = serialize($msg);
+        //alterar depois o localhost para o dominio
+        $payload = [
+            'iss' => 'localhost',
+            'data' => $salve_serializado,
+            'iat' => time()
+        ];
+        $payload = json_encode($payload);
+        $payload = base64_encode($payload);
+
+        $signature = hash_hmac('sha256', "$header.$payload", $_ENV['KEY_JWT'], true);
+        $signature = base64_encode($signature);
+        $jwt = "$header.$payload.$signature";
+
+        $postData = [
+            'userSerialized' => $jwt,
+        ];
+
+
+        // Converter o array de cookies para a string correta
+        $cookiesString = implode('; ', array_map(
+            function ($name, $value) {
+                return "$name=$value";
+            },
+            array_keys($cookies),
+            $cookies
+        ));
+
+        $client = new Client();
+        $client->post('http://localhost:8000/config/user/atualiza-sess-1', [
+            'form_params' => $postData,
+            'headers' => [
+                'Cookie' => $cookiesString,
+            ],
+            'timeout' => 10, // Tempo limite de 10 segundos
+        ]);
+    }
+}
+
+
+
+routes:
+
+
+#1 atualiza a sessão se ainda logado e o 2 atualiza a sessão se estiver deslogado e logado
+atualiza_sessao1:
+    path: /config/user/atualiza-sess-1
+    controller: App\Controller\Logado\Configuracoes\AtualizaSessao\AtualizarSessaoController::atualizaSessao
+
+
+
+
+
+AtualizarSessaoController:
+
+<?php
+
+declare(strict_types=1);
+
+namespace App\Controller\Logado\Configuracoes\AtualizaSessao;
+
+use App\Security\EditarConta\AlterarSessao;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Session\Storage\Handler\MemcachedSessionHandler;
+use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
+use Symfony\Component\Security\Core\User\UserInterface;
+
+use function Sentry\captureException;
+
+class AtualizarSessaoController extends AbstractController
+{
+
+    public function __construct(private MemcachedSessionHandler $memcached, private AlterarSessao $alterar)
+    {
+    }
+
+    public function atualizaSessao(Request $request, UserInterface $user, TokenStorageInterface $token): Response
+    {
+        if ($request->isMethod('POST')) {
+
+            $e_x = $this->alterar->executarAlteracao($request, $user, $token);
+
+            if ($e_x === 511) {
+                return new Response('Não autorizado o acesso', 511);
+            } else if ($e_x === 200) {
+                return new Response('Sessão alterada com sucesso!', 200);
+            } else if ($e_x === 500) {
+                return new Response('Erro na execução', 500);
+            }
+        }
+        return new Response('Não autorizado', 511);
+    }
+
+}
+
+
+
+
+
+
+
+a função:
+
+<?php
+
+declare(strict_types=1);
+
+namespace App\Security\EditarConta;
+
+use App\Document\Usuario\User;
+use Aws\Token\TokenInterface;
+use Doctrine\ODM\MongoDB\DocumentManager;
+use Exception;
+use Sentry\State\Scope;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Session\Storage\Handler\MemcachedSessionHandler;
+use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
+use Symfony\Component\Security\Core\User\UserInterface;
+
+use function Sentry\captureException;
+use function Sentry\configureScope;
+
+class AlterarSessao
+{
+
+    public function __construct(private MemcachedSessionHandler $memcached, private DocumentManager $dm)
+    {
+    }
+
+    public function executarAlteracao(Request $request, UserInterface $user, TokenStorageInterface $token): int
+    {
+        /**
+         *  após o usuário logado alterar o perfil essa alteração é enviada
+         *  através do messenger para a aws sqs onde será feito o salvamento
+         *  no mongodb, se tudo ocorrer bem será feito um envio curl para meu
+         *  site contendo os cookies que o usuário tinha no momento da
+         *  alteração e o objeto user. Após o envio user/painel/atualiza irá
+         *  validar se há um usuário logado e se o cookie que foi enviado 
+         * através do curl é o mesmo do usuário logado, então irá fazer a
+         *  validação do objeto user. Ao alterar  a conta a única coisa que
+         *  o usuário pode alterar é o campo 'arquivos', ou seja, todo o documento
+         *  com exceção de 'arquivos' deve ser idêntico
+         */
+
+        try {
+
+            if ($request->request->has('userSerialized')) {
+
+                $userSerialized = $request->request->get('userSerialized');
+
+                if (isset($_ENV['KEY_JWT'])) {
+
+                    $parts = explode('.', $userSerialized);
+                    if (count($parts) === 3) {
+                        list($header, $payload, $signature) = $parts;
+
+                        if (!empty($header) && !empty($payload) && !empty($signature)) {
+                            $valid = hash_hmac('sha256', "$header.$payload", $_ENV['KEY_JWT'], true);
+                            $valid = base64_encode($valid);
+
+                            if ($valid === $signature) {
+                                $payload = base64_decode($payload);
+                                $payload = json_decode($payload);
+
+                                if (isset($payload->iat) && (time() - $payload->iat < 3600)) { // Token válido por 60 minutos
+
+                                    if (isset($payload->data) && !empty($payload->data)) {
+                                        $userSerialized = $payload->data;
+
+                                        if (is_string($userSerialized)) {
+
+                                            // Validar o cookie atual com o memcached
+                                            $userObject = unserialize($userSerialized);
+                                            $user->getConteudosDaConta()->setArquivosPrivados($userObject['arquivos_publicos']);
+                                                return 211;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            
+            return 511;
+        } catch (Exception $e) {
+            $set_u = [];
+            if ($user) {
+                $set_u =
+                    [
+                        'nome_completo' => $user->getNomeCompleto(),
+                        'telefone' => $user->getCelular(),
+                        'email' => $user->getEmail(),
+                        'roles' => json_encode($user->getRoles()),
+                        'status' => $user->getStatus()
+                    ];
+            } else {
+                $set_u = [
+                    'usuario' => 'não está logado'
+                ];
+            }
+            $retorno = $request->request->get('userSerialized');
+
+            configureScope(function (Scope $scope) use ($e, $set_u, $retorno): void {
+                $scope->setUser(
+                    $set_u
+                );
+
+                $scope->setExtra('informacoes_adicionais', 'Houve algum problema durante a atualização
+            da sessão do usuário por meio do recebimento do objeto user enviado pelo curl diretamente
+            do manipulador de mensagens em SalvarMongoHandler. Objeto enviado pelo curl (nulo caso
+            esteja vazio): ' . $retorno);
+            });
+            captureException($e);
+            return 500;
+        }
+    }
+}

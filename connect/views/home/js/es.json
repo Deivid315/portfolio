@@ -1,0 +1,126 @@
+{
+    "nav": {
+      "home": "Página de Inicio",
+      "servicos": "Servicios",
+      "estude": "Estudiar en EUA",
+      "planejamento": "Planificación",
+      "contato": "Contacto",
+      "sobrenos": "Sobre Nosotros"
+    },
+    "menu": {
+      "home": "Página de inicio",
+      "servicos": "Servicios",
+      "estude": "Estudiar en EUA",
+      "planejamento": "Planificación",
+      "contato": "Contacto",
+      "sobrenos": "Sobre nosotros"
+    },
+    "fr": {
+        "pri": "'Ábrete al nuevo y descubre un mundo de oportunidades.'",
+        "seg": "'Las mejores historias se encuentran entre las páginas de un pasaporte.'",
+        "ter": "'El objetivo es morir con recuerdos, no sueños.'",
+        "qua": "'El mundo es un libro, y quien no viaja solo lee la primera página'",
+        "qui": "'Connection USA, Tu mejor conexión en el extranjero.'"
+    },
+    "smc": {
+        "um" :"Connection USA,",
+        "dois" :"¡Tu mejor conexión en el extranjero!"
+    } ,
+    "contato": "Entre en contacto",
+    "qso": {
+      "pt1": "Quienes somos:",
+      "pt2": "Conozca",
+      "pt3": "¡Descubra una manera eficiente y confiable de realizar su sueño americano! Somos una agencia de inmigración especializada en procesos de Green Card por matrimonio, Removal of Conditions, Ciudadanía, Cambio y Extensión de estatus, visas en general y mucho más. Estamos comprometidos a hacer que este camino sea más sencillo, eficiente y menos estresante para usted. Contamos con un equipo capacitado y preparado para guiarlo en cada etapa, desde la solicitud hasta la aprobación de su proceso. Póngase en contacto con nuestro equipo de especialistas para dar el primer paso hacia la realización de su sueño. ¡Connection USA quiere transformar su sueño en realidad!"    },
+    "serv": {
+      "pt1": "Nuestra consultoria",
+      "pt2": {
+        "pt1": "¿Sabías que Connection puede ayudarte desde la ",
+        "pt2": "solicitud de visa",
+        "pt3": " en tu país de origen hasta la aplicación para obtener tu ",
+        "pt4": "ciudadanía estadounidense",
+        "pt5": "? Además, también ofrecemos asesoramiento para visas canadienses, traducción oficial de documentos ¡y ",
+        "pt6": "mucho más!"
+      }
+    },
+    "serv_m": {
+      "pt1": {
+        "pt1": "Cambio de Estatus",
+        "pt2": "¿Quieres cambiar tu estatus dentro de los EE.UU. para estudiar o viajar y no sabes cómo?",
+        "pt3": "Esta es una excelente oportunidad para quienes ya se encuentran en los Estados Unidos, por ejemplo, como turistas o visa J-1, y desean quedarse en el país para estudiar. Con el Cambio de Estatus, no necesitas regresar a tu país de origen para iniciar el proceso de obtención de visa. Connection USA tiene asociación con diversas escuelas de inglés y puede ayudarte con todo el proceso."
+      },
+      "pt2": {
+        "pt1": "Extensión de Estatus",
+        "pt2": "¿Viniste a turistear en los EE.UU. y quieres quedarte un poco más?",
+        "pt3": "La Extensión de Estatus es un proceso recomendado para aquellos que se encuentran en los Estados Unidos con un estatus de turista válido y desean permanecer por un período más prolongado. Con este proceso, obtienes 6 meses adicionales de estadía legal en el país para continuar con tus planes de turismo y viajes por todo el país y disfrutar al máximo. Connection USA te ayuda con todo el proceso burocrático, desde la preparación hasta la aprobación de tu solicitud."
+      },
+      "pt3": {
+        "pt1": "Otros Servicios",
+        "pt2": "¡Connection USA ofrece soporte para visas y mucho más!",
+        "pt3": "Proporcionamos asistencia para visas, incluyendo visas de turista, estudiante, intercambio cultural como au pair y work and travel, visas y Green Card por trabajo como EB2, EB2-NIW y EB3, visas religiosas, visas de artistas, y muchos otros. También te asistimos con la solicitud o renovación de tu pasaporte estadounidense, y aplicación al programa de Global Entry."
+      },
+      "pt4": {
+        "pt1": "Green Card por Matrimonio",
+        "pt2": "¿Se ha casado con un ciudadano estadounidense y no sabe por dónde empezar con la aplicación de su Green Card?",
+        "pt3": "Esta categoría de Green Card facilita la reunificación familiar y permite que el cónyuge extranjero viva y trabaje legalmente en los Estados Unidos de manera permanente. Para obtener el Green Card por matrimonio, la pareja debe demostrar que tienen un matrimonio válido y genuino, y no solo con el propósito de obtener beneficios migratorios. Es necesario proporcionar pruebas sólidas de que el matrimonio es legítimo, como fotografías de la boda, cuentas bancarias conjuntas, facturas de servicios públicos a nombre de ambos, entre otros documentos"
+      },
+      "pt5": {
+        "pt1": "Removal of Conditions",
+        "pt2": "Se tu GreenCard de 2 años está próximo de vencer",
+        "pt3": "Este es un proceso obligatorio para renovar tu Green Card si lo obtuviste después del matrimonio. El Green Card por matrimonio tiene una validez inicial de 2 años y es condicional, lo que significa que debes mantener un matrimonio de buena fe. Después de los 2 años de validez del Green Card por matrimonio, es necesario solicitar la eliminación de condiciones (removal of conditions). Esto implica remover la condición de estar casado y obtener un nuevo Green Card con una validez de 10 años."
+      },
+      "pt6": {
+        "pt1": "Ciudadanía Americana",
+        "pt2": "¿Ya has cumplido con el tiempo mínimo como Residente Permanente y deseas aplicar para tu Ciudadanía?",
+        "pt3": "Existen diversas formas de convertirse en ciudadano de los Estados Unidos, como nacer en el país, tener un padre o madre ciudadano estadounidense o a través del proceso de naturalización. Para todos estos procesos, se deben cumplir una serie específica de requisitos legales. Si deseas solicitar tu ciudadanía a través del proceso de naturalización, Connection USA está aquí para ayudarte. Para ello, debes ser Residente Permanente Legal en el país (poseedor de una GreenCard) durante un período específico de tiempo, que puede ser de 3 o 5 años. Después de este período, puedes naturalizarte en los Estados Unidos y obtener el tan anhelado Pasaporte Americano para disfrutar de todos los beneficios de ser ciudadano estadounidense."
+      }
+    },
+    "consultoria": {
+      "pt1": "Consulta Gratuita",
+      "pt2": {
+        "pt1": "¡Connection USA ofrece una consulta gratuita exclusivamente para que puedas aclarar todas tus dudas sobre ",
+        "pt2": "procesos migratorios!",
+        "pt3": " La atención por videollamada o llamada telefónica tiene una duración de hasta 30 minutos, donde uno de nuestros especialistas responderá tus preguntas y te explicará todo lo que necesitas saber sobre el proceso."
+      },
+      "pt3": "¡Disponible únicamente para Procesos Migratorios! Consulta para procesos de visa disponible por WhatsApp. No pierdas tiempo. Agenda tu llamada ahora mismo.",
+      "pt4": {
+        "pt1": "No pierda tiempo.",
+        "pt2": "Agenda",
+        "pt3": " tu llamada ahora."
+      },
+      "pt5": "Agendar mi reunión ahora"
+    },
+    "intercambio":{
+      "pt1": "¡Haz tu intercambio con nosotros!",
+      "pt2": "Connection USA te ayuda en cada etapa del proceso, desde la inscripción en una escuela asociada hasta la aprobación de tu visa. ¡Ven y vive una experiencia de intercambio inolvidable y la mejor experiencia de tu vida!"
+    },
+    "percentual": {
+      "title": "Su éxito es nuestra satisfacción",
+      "pt1": "de satisfacción con los servicios de Connection USA, ya que siempre hay espacio para mejorar.",
+      "pt2": "de profesionalismo y competencia en la gestión de todos los procesos.",
+      "pt3": "de aprobación en procesos de Green Card."
+    },
+    "greencard":{
+      "title": {
+        "pt1": "¿Te has casado y quieres aplicar para tu ",
+        "pt2": "Green Card?"
+      },
+      "pt1" : "¡Deja la burocracia en nuestras manos! Connection USA es una empresa especializada en procesos migratorios ¡y está aquí para ayudarte!",
+      "pt2": "¡No pierdas tiempo!",
+      "art": "Con una tasa de aprobación del 100%, ofrecemos asesoramiento completo y meticuloso para la preparación y seguimiento de tu proceso. Estamos atentos a los detalles más mínimos para aumentar tus posibilidades de aprobación y minimizar los imprevistos y dolores de cabeza. ¡Acompañamos tu proceso en su totalidad hasta que recibas tu Green Card en manos! Connection USA siempre está un paso adelante para garantizar tu satisfacción y el mejor resultado posible.",
+      "contato": "Contáctenos"
+    },
+    "depoimentos":{
+      "title": "Deposiciones",
+      "pt1": "Valeu equipe @connectionusa_ conseguimos realizar meu sonho de estudar e morar na Califórnia 😍🙌RECOMENDO PRA TODOOOOOOS!!!",
+      "pt2": "Muito obrigado por me dar esse ótimo atendimento... Você é uma pessoa que faz seu trabalho com excelência... coisa que é muito difícil de encontrar hoje em dia... Parabéns!",
+      "pt3": "Muito obrigado Matheus! Você é um maravilhosinho! Obrigada pela paciência e atenção! Mesmo com meus montes de perguntas, confusões e insegurança você respondeu até perguntas que nem eram referentes ao processo! Com muita atenção, cuidado e educação! Obrigada mesmo ❤️! Bênçãos sem medida na tua vida e trabalho",
+      "pt4": "Agradeço de todo coração pelo cuidado, segurança e confiança que me passaram, em especial o Matheus. Recomendo a todos que estão em busca do visto. Contrate a Connection &#x1F60A. Muito Obrigada!"
+    },
+    "infoheader": {
+      "pt1": " TU MEJOR CONEXIÓN EN EL EXTRANJERO!",
+      "pt2": "Más información",
+      "pt3": " 'Todo lo puedo en Cristo que me fortalece.' (Filipenses 4:13)",
+      "pt4": "Política de privacidad"
+    },
+    "desenvolvedor": "2024 © Desarrollado por Magnos. Todos los derechos reservados"
+  }

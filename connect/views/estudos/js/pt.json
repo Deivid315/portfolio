@@ -1,0 +1,34 @@
+{
+    "menu": {
+      "home": "Página Inicial",
+      "servicos": "Serviços",
+      "estude": "Estude nos EUA",
+      "planejamento": "Planejamento",
+      "contato": "Contato",
+      "sobrenos": "Sobre Nós"
+    },
+    "tit":{
+        "pt1": "Faça seu ",
+        "pt2": "intercâmbio",
+        "pt3": " com a CONNECTION USA para estudar nos ",
+        "pt4": "Estados Unidos"
+    },
+    "text": "Transforme seus sonhos acadêmicos em realidade com a CONNECTION USA! Oferecemos suporte completo para o seu intercâmbio, guiando você rumo a uma experiência educacional única nos Estados Unidos. Conte conosco para proporcionar o caminho ideal e mergulhe em um aprendizado enriquecedor. Faça parte da dessa comunidade intercambista e tenha memórias inesquecíveis!",
+    "esc": "Escolas parceiras da Connection USA",
+    "roma":{
+        "pt1": "Pensando em aplicar para o seu visto de estudante ou turismo?",
+        "pt2": "Facilite sua jornada e deixe a burocracia conosco! Seja para estudo, turismo, ou qualquer outra categoria, estamos aqui para simplificar o seu processo. Conte com nossa expertise para orientação e suporte, garantindo que sua experiência seja livre de complicações. Faça seu visto conosco e prepare-se para explorar novos horizontes com confiança e tranquilidade!"
+    },
+    "troc":{
+        "pt1": "Querendo trocar o status do seu visto?",
+        "pt2": "Pronto para uma mudança? Se deseja trocar o status do seu visto, estamos aqui para guiá-lo. Conte com a nossa assistência especializada para facilitar a transição, seja para estudo, trabalho ou outros propósitos. Transforme sua experiência nos Estados Unidos conosco, garantindo um processo suave e eficiente na alteração do seu status!"
+    },
+    "mot": "'Ouse viajar, descubra a coragem nos horizontes desconhecidos!'",
+    "infoheader": {
+      "pt1": " A SUA MELHOR CONEXÃO NO EXTERIOR!",
+      "pt2": "Saiba mais",
+      "pt3": " 'Tudo posso naquele que me fortalece.' (Filipenses 4:13)",
+      "pt4": "Política de Privacidade"
+    },
+    "desenvolvedor": "2024 © Desenvolvido por Magnos. Todos os direitos reservados"
+  }

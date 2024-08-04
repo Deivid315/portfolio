@@ -1,0 +1,7 @@
+- verificar como usar o transport doctrine caso o sqs falhe
+- CRdON PARA COMPARAR ARQUIVOS DA S3 COM MONGODB
+- pensar em uma forma de em caso de falha do transport sqs ativar o transport mysql, porém 
+      como ele faz buscas por segundo no banco de dados então tem que ativar o supervisor dele
+      em caso de falha e após processar, entaõ suspender ele
+- verificar por que o nome do da tabela messenger_messages (onde ficam as mensagens falhadas)
+      tem a hora em formato utc
