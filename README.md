@@ -2,6 +2,8 @@ Aqui estão 3 projetos feitos por mim:
 
 Magnos - uma landing page simples feita com HTML, CSS, JS.
 (https://magnossites.com/)
+Elevadores - uma outra landing page simples feita com HTML, CSS, JS e um pouco de PHP para enviar o email.
+(https://magnossites.com/)
 
 Connect - um site composto pois mais 5 páginas com HTML, CSS e JS, além de uma parte admin feita com PHP usando uma estrutura MVC. Foi construído o painel admin para o mesmo poder alterar algumas informações em texto do site como: email, telefone, etc.
 (https://connectionusa.net)
