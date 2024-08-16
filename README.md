@@ -3,7 +3,7 @@ Aqui estão 3 projetos feitos por mim:
 Magnos - uma landing page simples feita com HTML, CSS, JS.
 (https://magnossites.com/)
 Elevadores - uma outra landing page simples feita com HTML, CSS, JS e um pouco de PHP para enviar o email.
-(https://magnossites.com/)
+(https://eijelevadores.com/)
 
 Connect - um site composto pois mais 5 páginas com HTML, CSS e JS, além de uma parte admin feita com PHP usando uma estrutura MVC. Foi construído o painel admin para o mesmo poder alterar algumas informações em texto do site como: email, telefone, etc.
 (https://connectionusa.net)
@@ -13,3 +13,5 @@ Luxure - um sistema robusto semelhante a uma rede social podendo o usuário cria
 
 Com isso sou capaz desde construir uma simples landing page a uma robusta rede social. Conheço do avançado mas nunca me esquecendo do simples e básico. Seja na parte Front-end ou Back-end tenho conhecimentos práticos e teóricos que me permitem entregar um trabalho de qualidade. No mundo da programação toda linguagem e conhecimento é válido de ser aprendido.
 Como Sócrates afirmou, 'Conhecimento é a única riqueza que não pode ser tirada de você.' Essa crença me impulsiona a buscar continuamente aprimoramento e inovação no campo da programação.
+
+obs: em todos esse links no footer da página da página estará 'desenvolvido por magnossites', este é o nome que indica meu trabalho.
