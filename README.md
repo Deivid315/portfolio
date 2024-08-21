@@ -1,12 +1,13 @@
-Aqui estão 3 projetos feitos por mim:
-
-Magnos - uma landing page simples feita com HTML, CSS, JS.
-(https://magnossites.com/)
-Elevadores - uma outra landing page simples feita com HTML, CSS, JS e um pouco de PHP para enviar o email.
-(https://eijelevadores.com/)
+Aqui estão 4 projetos feitos por mim:
 
 Connect - um site composto pois mais 5 páginas com HTML, CSS e JS, além de uma parte admin feita com PHP usando uma estrutura MVC. Foi construído o painel admin para o mesmo poder alterar algumas informações em texto do site como: email, telefone, etc.
 (https://connectionusa.net)
+
+Magnos - uma landing page simples feita com HTML, CSS, JS.
+(https://magnossites.com/)
+
+Elevadores - uma outra landing page simples feita com HTML, CSS, JS e um pouco de PHP para enviar o email.
+(https://eijelevadores.com/)
 
 Luxure - um sistema robusto semelhante a uma rede social podendo o usuário criar, suspender e deletar sua conta, além de postar, editar e remover seus dados. Construído com muitas tecnologias atuais como: PHP OO utilizando o Symfony, AWS S3 e CloudFront para armazenar os arquivos, MongoDB para salvar os links de referência a AWS juntamente com informações em texto (nome, idade, biografia, etc), AWS SQS como transport do serviço de mensageria e MySQL como callback caso o primeiro falhe, TWIG, SASS e TS para o front sendo utilizado o compilador Webpack devido a gama de arquivos (extensões como babel sendo usadas aqui), um servidor NodeJS criado com js vanilla para servir de suporte para o websocket (possibilitando a atualização dos arquivos em tempo real).
 (Finalizando o desenvolvimento apenas do front-end, posso mostrar o site atual se necessário, porém sem os estilos do front aplicados)
