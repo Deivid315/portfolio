@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
 
-    <link rel="stylesheet" href="../dashboard/style.css">
+    <link rel="stylesheet" href="../dashboard-arqs/style.css">
 
 
 </head>
@@ -191,7 +191,7 @@
 
     </div>
 
-    <script src='../dashboard/jquery-3.7.1.min.js'></script>
+    <script src='../dashboard-arqs/jquery-3.7.1.min.js'></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
 

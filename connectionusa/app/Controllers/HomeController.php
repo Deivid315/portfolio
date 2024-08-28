@@ -30,7 +30,6 @@ class HomeController extends BaseController
     
     public function contato(): string
     {
-        echo 'kkk'; exit;
         helper('form');
 
         if($this->request->is('post')){
@@ -100,7 +99,7 @@ class HomeController extends BaseController
     }
     
     public function politica(): string
-    {    echo 'kkk'; exit;
+    {
 
         return view('politica/politica');
     }

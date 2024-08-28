@@ -18,10 +18,10 @@
     <meta http-equiv="content-language" content="pt-br">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="keywords" content="contato, suporte, auxilio em processos migratorios, ajuda, formulario">
-    <link rel="icon" type="image/x-icon" href="/contato/img_c/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="/contato/img_c/favicon.ico">
-    <meta name="msapplication-TileImage" content="/contato/img_c/favicon.ico">
-    <link rel="shortcut icon" href="/contato/img_c/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/contato-arqs/img_c/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="/contato-arqs/img_c/favicon.ico">
+    <meta name="msapplication-TileImage" content="/contato-arqs/img_c/favicon.ico">
+    <link rel="shortcut icon" href="/contato-arqs/img_c/favicon.ico">
 
     <!-- facebook-->
     <meta property="og:title" content="Contato">
@@ -66,7 +66,7 @@
         #menu ul li:nth-child(n+5):nth-child(-n+7)::after {
             width: 1.1vw;
             height: 1vw;
-            background-image: url("/contato/img_c/av.png");
+            background-image: url("/contato-arqs/img_c/av.png");
             background-size: cover;
             background-repeat: no-repeat;
             content: "";
@@ -342,7 +342,7 @@
         }
 
         #menu ul li:nth-child(n):hover::after {
-            background-image: url("/contato/img_c/ava.png")
+            background-image: url("/contato-arqs/img_c/ava.png")
         }
 
         #efect_principal {
@@ -487,7 +487,7 @@
         }
     </style>
 
-    <script type="text/javascript" src="/contato/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="/contato-arqs/js/jquery-3.7.1.min.js"></script>
     <script>
         var pageLoaded = false;
 
@@ -520,20 +520,20 @@
             }
         }
     </script>
-    <link rel="stylesheet" href="/contato/css/contato_style.css">
+    <link rel="stylesheet" href="/contato-arqs/css/contato-arqs_style.css">
 
 
 </head>
 
 <body>
     <div id="f_c">
-        <img data-src="/contato/img_c/ff" data-format="png" alt="homem segurando um passaporte">
+        <img data-src="/contato-arqs/img_c/ff" data-format="png" alt="homem segurando um passaporte">
     </div>
     <div id="pre">
         <picture>
-            <source srcset="/contato/img_c/av.webp" type="image/webp">
-            <source srcset="/contato/img_c/av.png" type="image/png">
-            <img src="/contato/img_c/av.webp" alt="avião" class="a">
+            <source srcset="/contato-arqs/img_c/av.webp" type="image/webp">
+            <source srcset="/contato-arqs/img_c/av.png" type="image/png">
+            <img src="/contato-arqs/img_c/av.webp" alt="avião" class="a">
         </picture>
         <div class="pre2">
             <h1>CONNECTION USA</h1>
@@ -599,7 +599,7 @@
             <div id="lp_m">
                 <div id="logo_m">
                     <span></span>
-                    <img src="/contato/img_c/logo.webp" alt="logomarca da empresa">
+                    <img src="/contato-arqs/img_c/logo.webp" alt="logomarca da empresa">
                 </div>
                 <span class="portugues_m">
 
@@ -634,11 +634,11 @@
         </header>
 
         <main>
-            <img data-src="/contato/img_c/deta_f_c" data-format="png" alt="fundo azul" class="deta_f_c">
+            <img data-src="/contato-arqs/img_c/deta_f_c" data-format="png" alt="fundo azul" class="deta_f_c">
             <div class="imagens_for">
-                <img data-src="/contato/img_c/tel" data-format="png" alt="telefone">
-                <img data-src="/contato/img_c/gm" data-format="png" alt="gmail">
-                <img data-src="/contato/img_c/loc" data-format="png" alt="localizacao">
+                <img data-src="/contato-arqs/img_c/tel" data-format="png" alt="telefone">
+                <img data-src="/contato-arqs/img_c/gm" data-format="png" alt="gmail">
+                <img data-src="/contato-arqs/img_c/loc" data-format="png" alt="localizacao">
 
             </div>
             <div class="text_for">
@@ -750,7 +750,7 @@
 
         <footer id="fim">
             <div class="he">
-                <img data-src="/contato/img_c/hea_viag" data-format="png" alt="aeroporto" class="hea_viag">
+                <img data-src="/contato-arqs/img_c/hea_viag" data-format="png" alt="aeroporto" class="hea_viag">
 
             </div>
             <div class="infoheader obs">
@@ -793,7 +793,7 @@
                 .init({
                     fallbackLng: 'pt',
                     backend: {
-                        loadPath: '/contato/js/{{lng}}.json',
+                        loadPath: '/contato-arqs/js/{{lng}}.json',
                     },
                     detection: {
                         order: ['querystring', 'cookie', 'localStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
@@ -895,9 +895,9 @@
             })
         });
     </script>
-    <script src="/contato/js/webp.js-master/lib/modernizr.webp.js"></script>
-    <script src="/contato/js/webp.js-master/lib/webp.min.js"></script>
-    <script type="text/javascript" src="/contato/js/contato_js.js"></script>
+    <script src="/contato-arqs/js/webp.js-master/lib/modernizr.webp.js"></script>
+    <script src="/contato-arqs/js/webp.js-master/lib/webp.min.js"></script>
+    <script type="text/javascript" src="/contato-arqs/js/contato-arqs_js.js"></script>
 
 
 </body>

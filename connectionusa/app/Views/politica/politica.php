@@ -17,10 +17,10 @@
     <meta http-equiv="content-language" content="pt-br">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="keywords" content="contato, suporte, auxilio em processos migratorios, ajuda, formulario">
-    <link rel="icon" type="image/x-icon" href="/politica/img/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="/politica/img/favicon.ico">
-    <meta name="msapplication-TileImage" content="/politica/img/favicon.ico">
-    <link rel="shortcut icon" href="/politica/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/politica-arqs/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="/politica-arqs/img/favicon.ico">
+    <meta name="msapplication-TileImage" content="/politica-arqs/img/favicon.ico">
+    <link rel="shortcut icon" href="/politica-arqs/img/favicon.ico">
 
 
     <style>
@@ -63,7 +63,7 @@ body,body a {
 #menu ul li:nth-child(-n+3)::after,#menu ul li:nth-child(n+5):nth-child(-n+7)::after {
     width:1.1vw;
     height:1vw;
-    background-image:url("/politica/img/av.png");
+    background-image:url("/politica-arqs/img/av.png");
     background-size:cover;
     background-repeat:no-repeat;
     content:"";
@@ -283,7 +283,7 @@ body::-webkit-scrollbar-thumb {
     background-color:#e1c506
 }
 #menu ul li:nth-child(n):hover::after {
-    background-image:url("/politica/img/ava.png")
+    background-image:url("/politica-arqs/img/ava.png")
 }
 #efect_principal {
     margin-top:.78vw;
@@ -541,7 +541,7 @@ body::-webkit-scrollbar-thumb {
 }
     </style>
 
-    <script type="text/javascript" src="/politica/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="/politica-arqs/js/jquery-3.7.1.min.js"></script>
     <script>
     
     var pageLoaded = false;
@@ -574,9 +574,9 @@ function hidePreloader() {
     
     <div id="pre">
         <picture>
-            <source srcset="/politica/img/av.webp" type="image/webp">
-            <source srcset="/politica/img/av.png" type="image/png">
-            <img src="/politica/img/av.webp" alt="avião" class="a">
+            <source srcset="/politica-arqs/img/av.webp" type="image/webp">
+            <source srcset="/politica-arqs/img/av.png" type="image/png">
+            <img src="/politica-arqs/img/av.webp" alt="avião" class="a">
         </picture>
         <div class="pre2">
         <h1>CONNECTION USA</h1>
@@ -616,7 +616,7 @@ function hidePreloader() {
                     <li><a href="https://estudenoseua.connectionusa.net">Estude Nos EUA</a></li>
                     <div id="logo">
                         <span></span>
-                        <img src="/politica/img/logo.webp" alt="logomarca da empresa">
+                        <img src="/politica-arqs/img/logo.webp" alt="logomarca da empresa">
                     </div>
                     <li><a href="https://connectionusa.net/#consultoria"
                             id="link_planejamento">Planejamento</a></li>
@@ -624,16 +624,16 @@ function hidePreloader() {
                     <li><a href="https://connectionusa.net/#sobrenos" id="link_sobre">Sobre Nós</a></li>
                 </ul>
                 <span class="portugues">
-                    <img src="/politica/img/brasil.webp" alt="bandeira do brasil">
+                    <img src="/politica-arqs/img/brasil.webp" alt="bandeira do brasil">
                     PT</span>
             </nav>
             <div id="lp_m">
                 <div id="logo_m">
                     <span></span>
-                    <img src="/politica/img/logo.webp" alt="logomarca da empresa">
+                    <img src="/politica-arqs/img/logo.webp" alt="logomarca da empresa">
                 </div>
                 <span class="portugues_m">
-                    <img src="/politica/img/brasil.webp" alt="bandeira do brasil">
+                    <img src="/politica-arqs/img/brasil.webp" alt="bandeira do brasil">
                     PT</span>
             </div>
 
@@ -794,9 +794,9 @@ function hidePreloader() {
     </div>
     
     
-    <script src="/politica/js/webp.js-master/lib/modernizr.webp.js"></script>
-    <script src="/politica/js/webp.js-master/lib/webp.min.js"></script>
-    <script type="text/javascript" src="/politica/js/js.js"></script>
+    <script src="/politica-arqs/js/webp.js-master/lib/modernizr.webp.js"></script>
+    <script src="/politica-arqs/js/webp.js-master/lib/webp.min.js"></script>
+    <script type="text/javascript" src="/politica-arqs/js/js.js"></script>
     
 </body>
 
