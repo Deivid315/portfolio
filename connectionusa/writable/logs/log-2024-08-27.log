@@ -1,0 +1,2196 @@
+INFO - 2024-08-27 02:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:45:03 --> CSRF token verified.
+INFO - 2024-08-27 02:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 02:45:07 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 02:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 02:46:22 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 02:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 02:46:22 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 02:47:04 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 02:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 02:47:11 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 02:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 02:47:11 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 02:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ALERT - 2024-08-27 02:47:48 --> não é iajas
+ALERT - 2024-08-27 02:47:54 --> não é iajas
+ALERT - 2024-08-27 02:47:56 --> não é iajas
+ALERT - 2024-08-27 02:48:05 --> não é iajas
+INFO - 2024-08-27 02:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 02:49:30 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 APPPATH/Controllers/AdminController.php(53): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 02:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 02:51:48 --> ErrorException: Undefined property: stdClass::$index
+[Method: POST, Route: detalhes/esc]
+in APPPATH/Controllers/AdminController.php on line 53.
+ 1 APPPATH/Controllers/AdminController.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 02:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ALERT - 2024-08-27 02:53:28 --> acessou
+ALERT - 2024-08-27 02:53:28 --> variavel é: 
+INFO - 2024-08-27 02:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 02:53:56 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 02:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 02:56:37 --> CSRF token verified.
+ALERT - 2024-08-27 02:56:37 --> acessou
+ALERT - 2024-08-27 02:56:37 --> variavel é: 
+INFO - 2024-08-27 03:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:24:46 --> CSRF token verified.
+ALERT - 2024-08-27 03:24:46 --> acessou
+ALERT - 2024-08-27 03:24:46 --> variavel é: 
+INFO - 2024-08-27 03:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:26:08 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:26:23 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:26:34 --> CSRF token verified.
+ALERT - 2024-08-27 03:26:34 --> acessou
+ALERT - 2024-08-27 03:26:34 --> variavel é: 
+INFO - 2024-08-27 03:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:26:37 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:27:07 --> CSRF token verified.
+ALERT - 2024-08-27 03:27:07 --> acessou
+ALERT - 2024-08-27 03:27:07 --> variavel é: 
+INFO - 2024-08-27 03:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:27:11 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:27:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:30:45 --> CSRF token verified.
+ALERT - 2024-08-27 03:30:45 --> acessou
+ALERT - 2024-08-27 03:30:45 --> variavel é: 
+INFO - 2024-08-27 03:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:30:49 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:31:28 --> CSRF token verified.
+ALERT - 2024-08-27 03:31:28 --> acessou
+ALERT - 2024-08-27 03:31:28 --> variavel é: 
+INFO - 2024-08-27 03:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:31:33 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:31:34 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:32:48 --> CSRF token verified.
+ALERT - 2024-08-27 03:32:48 --> acessoub800c9a45c2100e231640c95e4f30ab3
+ALERT - 2024-08-27 03:32:48 --> variavel é: 
+INFO - 2024-08-27 03:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:33:50 --> CSRF token verified.
+ALERT - 2024-08-27 03:33:50 --> acessou
+ALERT - 2024-08-27 03:33:50 --> variavel é: 
+INFO - 2024-08-27 03:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:34:20 --> CSRF token verified.
+ALERT - 2024-08-27 03:34:20 --> acessou
+ALERT - 2024-08-27 03:34:20 --> variavel é: 
+INFO - 2024-08-27 03:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:34:25 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:36:08 --> CSRF token verified.
+ALERT - 2024-08-27 03:36:08 --> acessou
+ALERT - 2024-08-27 03:36:08 --> variavel é: 
+INFO - 2024-08-27 03:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:36:17 --> CSRF token verified.
+ALERT - 2024-08-27 03:36:17 --> acessou
+ALERT - 2024-08-27 03:36:17 --> variavel é: 
+INFO - 2024-08-27 03:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:36:37 --> CSRF token verified.
+ALERT - 2024-08-27 03:36:37 --> acessou
+ALERT - 2024-08-27 03:36:37 --> variavel é: 
+INFO - 2024-08-27 03:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:36:50 --> CSRF token verified.
+ALERT - 2024-08-27 03:36:50 --> acessou
+ALERT - 2024-08-27 03:36:50 --> variavel é: 
+INFO - 2024-08-27 03:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:38:59 --> CSRF token verified.
+ALERT - 2024-08-27 03:38:59 --> variavel é: 
+INFO - 2024-08-27 03:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:39:37 --> CSRF token verified.
+ALERT - 2024-08-27 03:39:37 --> variavel é: 
+INFO - 2024-08-27 03:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:40:28 --> CSRF token verified.
+ALERT - 2024-08-27 03:40:28 --> variavel é: 
+INFO - 2024-08-27 03:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:41:43 --> CSRF token verified.
+ALERT - 2024-08-27 03:41:43 --> variavel é: 
+INFO - 2024-08-27 03:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:42:10 --> CSRF token verified.
+ALERT - 2024-08-27 03:42:10 --> variavel é: 
+INFO - 2024-08-27 03:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:43:25 --> CSRF token verified.
+CRITICAL - 2024-08-27 03:43:25 --> ErrorException: Undefined property: stdClass::$det
+[Method: POST, Route: detalhes/esc]
+in APPPATH/Controllers/AdminController.php on line 55.
+ 1 APPPATH/Controllers/AdminController.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:44:10 --> CSRF token verified.
+CRITICAL - 2024-08-27 03:44:10 --> ErrorException: Undefined property: stdClass::$det
+[Method: POST, Route: detalhes/esc]
+in APPPATH/Controllers/AdminController.php on line 55.
+ 1 APPPATH/Controllers/AdminController.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:44:37 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:44:37 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:45:39 --> CSRF token verified.
+CRITICAL - 2024-08-27 03:45:39 --> ErrorException: Undefined property: stdClass::$det
+[Method: POST, Route: detalhes/esc]
+in APPPATH/Controllers/AdminController.php on line 55.
+ 1 APPPATH/Controllers/AdminController.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:45:44 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:45:44 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:46:37 --> CSRF token verified.
+CRITICAL - 2024-08-27 03:46:37 --> ErrorException: Undefined property: stdClass::$det
+[Method: POST, Route: detalhes/esc]
+in APPPATH/Controllers/AdminController.php on line 55.
+ 1 APPPATH/Controllers/AdminController.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:46:59 --> CSRF token verified.
+ALERT - 2024-08-27 03:46:59 --> variavel é: 
+INFO - 2024-08-27 03:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:47:05 --> CSRF token verified.
+ALERT - 2024-08-27 03:47:05 --> variavel é: 
+INFO - 2024-08-27 03:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:47:08 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:47:08 --> CSRF token verified.
+ALERT - 2024-08-27 03:47:08 --> variavel é: 
+INFO - 2024-08-27 03:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:48:02 --> CSRF token verified.
+ALERT - 2024-08-27 03:48:02 --> variavel é: 
+INFO - 2024-08-27 03:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:48:06 --> CSRF token verified.
+ALERT - 2024-08-27 03:48:06 --> variavel é: 
+INFO - 2024-08-27 03:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:48:08 --> CSRF token verified.
+ALERT - 2024-08-27 03:48:08 --> variavel é: 
+INFO - 2024-08-27 03:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 03:48:08 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 03:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 03:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 04:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 04:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 04:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 04:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:03:16 --> CSRF token verified.
+INFO - 2024-08-27 13:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:18:45 --> CSRF token verified.
+ALERT - 2024-08-27 13:18:45 --> não é iajas
+CRITICAL - 2024-08-27 13:18:45 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 APPPATH/Controllers/AdminController.php(54): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 13:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:20:05 --> CSRF token verified.
+CRITICAL - 2024-08-27 13:20:05 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 APPPATH/Controllers/AdminController.php(53): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 13:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:23:08 --> CSRF token verified.
+ALERT - 2024-08-27 13:23:08 --> variavel é: 
+INFO - 2024-08-27 13:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:24:29 --> CSRF token verified.
+ALERT - 2024-08-27 13:24:29 --> variavel é: 
+INFO - 2024-08-27 13:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:27:09 --> CSRF token verified.
+ALERT - 2024-08-27 13:27:09 --> Variável esco é: 
+ALERT - 2024-08-27 13:27:09 --> CSRF Token é: 
+INFO - 2024-08-27 13:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:27:35 --> CSRF token verified.
+ALERT - 2024-08-27 13:27:35 --> Variável esco é: 
+ALERT - 2024-08-27 13:27:35 --> CSRF Token é: 
+INFO - 2024-08-27 13:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:28:22 --> CSRF token verified.
+ALERT - 2024-08-27 13:28:22 --> Variável esco:fl é:
+ALERT - 2024-08-27 13:28:22 --> CSRF Token é: 
+INFO - 2024-08-27 13:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:29:12 --> CSRF token verified.
+ALERT - 2024-08-27 13:29:12 --> variavel é: fl
+INFO - 2024-08-27 13:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:48:23 --> CSRF token verified.
+CRITICAL - 2024-08-27 13:48:23 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: detalhes/esc]
+in APPPATH/Models/Admin/Buscas/Buscas.php on line 25.
+ 1 APPPATH/Controllers/AdminController.php(59): App\Models\Admin\Buscas\Buscas->getEscola()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 13:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:50:40 --> CSRF token verified.
+CRITICAL - 2024-08-27 13:50:40 --> TypeError: App\Models\Admin\Buscas\Buscas::getEscola(): Return value must be of type array, null returned
+[Method: POST, Route: detalhes/esc]
+in APPPATH/Models/Admin/Buscas/Buscas.php on line 32.
+ 1 APPPATH/Controllers/AdminController.php(59): App\Models\Admin\Buscas\Buscas->getEscola()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 13:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:52:13 --> CSRF token verified.
+ALERT - 2024-08-27 13:52:13 --> variavel é: ge
+INFO - 2024-08-27 13:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:53:37 --> CSRF token verified.
+ALERT - 2024-08-27 13:53:37 --> variavel é: fl
+INFO - 2024-08-27 13:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:54:17 --> CSRF token verified.
+ALERT - 2024-08-27 13:54:17 --> variavel é: fl
+INFO - 2024-08-27 13:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:54:20 --> CSRF token verified.
+ALERT - 2024-08-27 13:54:20 --> variavel é: nj
+INFO - 2024-08-27 13:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:54:22 --> CSRF token verified.
+ALERT - 2024-08-27 13:54:22 --> variavel é: ms
+INFO - 2024-08-27 13:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:54:25 --> CSRF token verified.
+ALERT - 2024-08-27 13:54:25 --> variavel é: md
+INFO - 2024-08-27 13:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:54:26 --> CSRF token verified.
+ALERT - 2024-08-27 13:54:26 --> variavel é: ind
+INFO - 2024-08-27 13:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:54:29 --> CSRF token verified.
+ALERT - 2024-08-27 13:54:29 --> variavel é: ca
+INFO - 2024-08-27 13:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 13:54:31 --> CSRF token verified.
+ALERT - 2024-08-27 13:54:31 --> variavel é: wa
+INFO - 2024-08-27 14:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:09:09 --> CSRF token verified.
+ALERT - 2024-08-27 14:09:09 --> variavel é: fl
+INFO - 2024-08-27 14:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:10:22 --> CSRF token verified.
+ALERT - 2024-08-27 14:10:22 --> variavel é: co
+INFO - 2024-08-27 14:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:10:39 --> CSRF token verified.
+ALERT - 2024-08-27 14:10:39 --> variavel é: wa
+INFO - 2024-08-27 14:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:10:41 --> CSRF token verified.
+ALERT - 2024-08-27 14:10:41 --> a tabela é: wa e o id é: alp
+CRITICAL - 2024-08-27 14:10:41 --> TypeError: App\Models\Admin\Buscas\Buscas::getDetalhes(): Argument #2 ($id) must be of type int, string given, called in /home/deivid/projeto/app/Controllers/AdminController.php on line 76
+[Method: POST, Route: detalhes/esc]
+in APPPATH/Models/Admin/Buscas/Buscas.php on line 41.
+ 1 APPPATH/Controllers/AdminController.php(76): App\Models\Admin\Buscas\Buscas->getDetalhes()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 14:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:11:17 --> CSRF token verified.
+ALERT - 2024-08-27 14:11:17 --> variavel é: ge
+INFO - 2024-08-27 14:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:11:19 --> CSRF token verified.
+ALERT - 2024-08-27 14:11:19 --> a tabela é: ge e o id é: tal
+ERROR - 2024-08-27 14:11:19 --> mysqli_sql_exception: Unknown column 'mv_9' in 'field list' in /home/deivid/projeto/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/deivid/projeto/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/deivid/projeto/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/deivid/projeto/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/deivid/projeto/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#4 /home/deivid/projeto/app/Models/Admin/Buscas/Buscas.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/deivid/projeto/app/Models/Admin/Buscas/Buscas.php(43): App\Models\Admin\Buscas\Buscas->mostreDet()
+#6 /home/deivid/projeto/app/Controllers/AdminController.php(76): App\Models\Admin\Buscas\Buscas->getDetalhes()
+#7 /home/deivid/projeto/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\AdminController->info()
+#8 /home/deivid/projeto/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /home/deivid/projeto/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/deivid/projeto/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home/deivid/projeto/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/deivid/projeto/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/deivid/projeto/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('...')
+#14 {main}
+CRITICAL - 2024-08-27 14:11:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mv_9' in 'field list'
+[Method: POST, Route: detalhes/esc]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Admin/Buscas/Buscas.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Models/Admin/Buscas/Buscas.php(43): App\Models\Admin\Buscas\Buscas->mostreDet()
+ 4 APPPATH/Controllers/AdminController.php(76): App\Models\Admin\Buscas\Buscas->getDetalhes()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+CRITICAL - 2024-08-27 14:11:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mv_9' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/Admin/Buscas/Buscas.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Models/Admin/Buscas/Buscas.php(43): App\Models\Admin\Buscas\Buscas->mostreDet()
+ 6 APPPATH/Controllers/AdminController.php(76): App\Models\Admin\Buscas\Buscas->getDetalhes()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+CRITICAL - 2024-08-27 14:11:19 --> [Caused by] mysqli_sql_exception: Unknown column 'mv_9' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Admin/Buscas/Buscas.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Models/Admin/Buscas/Buscas.php(43): App\Models\Admin\Buscas\Buscas->mostreDet()
+ 7 APPPATH/Controllers/AdminController.php(76): App\Models\Admin\Buscas\Buscas->getDetalhes()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->info()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 14:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:27:30 --> CSRF token verified.
+ALERT - 2024-08-27 14:27:30 --> variavel é: fl
+INFO - 2024-08-27 14:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:27:32 --> CSRF token verified.
+ALERT - 2024-08-27 14:27:32 --> a tabela é: fl e o id é: tal
+INFO - 2024-08-27 14:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 14:27:42 --> CSRF token verified.
+ALERT - 2024-08-27 14:27:42 --> a tabela é: fl e o id é: lib
+INFO - 2024-08-27 16:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 16:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 16:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 16:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 16:58:49 --> CSRF token verified.
+INFO - 2024-08-27 16:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 16:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 16:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 16:58:56 --> CSRF token verified.
+ALERT - 2024-08-27 16:58:56 --> variavel é: fl
+INFO - 2024-08-27 16:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 16:59:01 --> CSRF token verified.
+ALERT - 2024-08-27 16:59:01 --> variavel é: ny
+INFO - 2024-08-27 16:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 16:59:04 --> CSRF token verified.
+ALERT - 2024-08-27 16:59:04 --> a tabela é: ny e o id é: uce
+INFO - 2024-08-27 17:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:25:40 --> CSRF token verified.
+ALERT - 2024-08-27 17:25:40 --> variavel é: tx
+INFO - 2024-08-27 17:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:25:41 --> CSRF token verified.
+ALERT - 2024-08-27 17:25:41 --> a tabela é: tx e o id é: lci
+INFO - 2024-08-27 17:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:57:08 --> CSRF token verified.
+ALERT - 2024-08-27 17:57:08 --> variavel é: ge
+INFO - 2024-08-27 17:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:57:10 --> CSRF token verified.
+ALERT - 2024-08-27 17:57:10 --> a tabela é: ge e o id é: tal
+INFO - 2024-08-27 17:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:58:03 --> CSRF token verified.
+ALERT - 2024-08-27 17:58:03 --> variavel é: sc
+INFO - 2024-08-27 17:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:58:04 --> CSRF token verified.
+ALERT - 2024-08-27 17:58:04 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 17:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:59:33 --> CSRF token verified.
+ALERT - 2024-08-27 17:59:33 --> variavel é: sc
+INFO - 2024-08-27 17:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 17:59:35 --> CSRF token verified.
+ALERT - 2024-08-27 17:59:35 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 17:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 17:59:40 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/atualize]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 18:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:04:32 --> CSRF token verified.
+ALERT - 2024-08-27 18:04:32 --> variavel é: sc
+INFO - 2024-08-27 18:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:04:32 --> CSRF token verified.
+ALERT - 2024-08-27 18:04:32 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 18:04:38 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/atualize]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 18:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:07:38 --> CSRF token verified.
+ALERT - 2024-08-27 18:07:38 --> variavel é: sc
+INFO - 2024-08-27 18:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:07:39 --> CSRF token verified.
+ALERT - 2024-08-27 18:07:39 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:07:44 --> CSRF token verified.
+CRITICAL - 2024-08-27 18:07:44 --> ArgumentCountError: Too few arguments to function App\Controllers\AdminController::atualize(), 0 passed in /home/deivid/projeto/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 3 expected
+[Method: POST, Route: detalhes/atualize]
+in APPPATH/Controllers/AdminController.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->atualize()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 18:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 18:08:34 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/atualize]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 18:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:08:48 --> CSRF token verified.
+ALERT - 2024-08-27 18:08:48 --> variavel é: sc
+INFO - 2024-08-27 18:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:08:49 --> CSRF token verified.
+ALERT - 2024-08-27 18:08:49 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:08:56 --> CSRF token verified.
+ALERT - 2024-08-27 18:08:56 --> foi
+INFO - 2024-08-27 18:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 18:09:13 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/atualize]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 18:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:11:37 --> CSRF token verified.
+ALERT - 2024-08-27 18:11:37 --> variavel é: sc
+INFO - 2024-08-27 18:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:11:38 --> CSRF token verified.
+ALERT - 2024-08-27 18:11:38 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:11:43 --> CSRF token verified.
+INFO - 2024-08-27 18:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:12:20 --> CSRF token verified.
+ALERT - 2024-08-27 18:12:20 --> variavel é: sc
+INFO - 2024-08-27 18:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:12:21 --> CSRF token verified.
+ALERT - 2024-08-27 18:12:21 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:12:29 --> CSRF token verified.
+INFO - 2024-08-27 18:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:15:44 --> CSRF token verified.
+ALERT - 2024-08-27 18:15:44 --> variavel é: sc
+INFO - 2024-08-27 18:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:15:45 --> CSRF token verified.
+ALERT - 2024-08-27 18:15:45 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 18:15:50 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/atualize]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 18:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:20:25 --> CSRF token verified.
+ALERT - 2024-08-27 18:20:25 --> variavel é: sc
+INFO - 2024-08-27 18:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:20:26 --> CSRF token verified.
+ALERT - 2024-08-27 18:20:26 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:20:29 --> CSRF token verified.
+INFO - 2024-08-27 18:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:22:17 --> CSRF token verified.
+ALERT - 2024-08-27 18:22:17 --> variavel é: sc
+INFO - 2024-08-27 18:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:22:17 --> CSRF token verified.
+ALERT - 2024-08-27 18:22:17 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:22:25 --> CSRF token verified.
+INFO - 2024-08-27 18:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:24:48 --> CSRF token verified.
+ALERT - 2024-08-27 18:24:48 --> variavel é: sc
+INFO - 2024-08-27 18:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:24:49 --> CSRF token verified.
+ALERT - 2024-08-27 18:24:49 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:24:53 --> CSRF token verified.
+INFO - 2024-08-27 18:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:26:21 --> CSRF token verified.
+ALERT - 2024-08-27 18:26:21 --> variavel é: sc
+INFO - 2024-08-27 18:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:26:22 --> CSRF token verified.
+ALERT - 2024-08-27 18:26:22 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:26:27 --> CSRF token verified.
+INFO - 2024-08-27 18:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 18:27:14 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/atualize]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 18:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:27:22 --> CSRF token verified.
+ALERT - 2024-08-27 18:27:22 --> variavel é: ge
+INFO - 2024-08-27 18:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:27:24 --> CSRF token verified.
+ALERT - 2024-08-27 18:27:24 --> a tabela é: ge e o id é: tal
+INFO - 2024-08-27 18:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:27:29 --> CSRF token verified.
+INFO - 2024-08-27 18:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:27:55 --> CSRF token verified.
+ALERT - 2024-08-27 18:27:55 --> variavel é: sc
+INFO - 2024-08-27 18:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:27:56 --> CSRF token verified.
+ALERT - 2024-08-27 18:27:56 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:28:02 --> CSRF token verified.
+ALERT - 2024-08-27 18:28:02 --> foi
+INFO - 2024-08-27 18:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:28:15 --> CSRF token verified.
+ALERT - 2024-08-27 18:28:15 --> foi
+INFO - 2024-08-27 18:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:29:02 --> CSRF token verified.
+ALERT - 2024-08-27 18:29:02 --> foi
+INFO - 2024-08-27 18:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:31:35 --> CSRF token verified.
+ALERT - 2024-08-27 18:31:35 --> foi
+INFO - 2024-08-27 18:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:34:06 --> CSRF token verified.
+ALERT - 2024-08-27 18:34:06 --> foi
+INFO - 2024-08-27 18:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:34:25 --> CSRF token verified.
+ALERT - 2024-08-27 18:34:25 --> variavel é: sc
+INFO - 2024-08-27 18:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:34:26 --> CSRF token verified.
+ALERT - 2024-08-27 18:34:26 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 18:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:34:30 --> CSRF token verified.
+ALERT - 2024-08-27 18:34:30 --> foi
+INFO - 2024-08-27 18:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:35:15 --> CSRF token verified.
+ALERT - 2024-08-27 18:35:15 --> foi
+INFO - 2024-08-27 18:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:35:47 --> CSRF token verified.
+ALERT - 2024-08-27 18:35:47 --> variavel é: fl
+INFO - 2024-08-27 18:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:35:48 --> CSRF token verified.
+ALERT - 2024-08-27 18:35:48 --> a tabela é: fl e o id é: lib
+INFO - 2024-08-27 18:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 18:35:54 --> CSRF token verified.
+ALERT - 2024-08-27 18:35:54 --> foi
+ERROR - 2024-08-27 19:39:33 --> mysqli_sql_exception: Table 'connectionusa.admin' doesn't exist in /home/deivid/projeto/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/deivid/projeto/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/deivid/projeto/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/deivid/projeto/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/deivid/projeto/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#4 /home/deivid/projeto/vendor/codeigniter4/framework/system/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/deivid/projeto/vendor/codeigniter4/framework/system/BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 /home/deivid/projeto/app/Models/Admin/Token.php(76): CodeIgniter\BaseModel->first()
+#7 /home/deivid/projeto/app/Controllers/HomeController.php(14): App\Models\Admin\Token->getToken()
+#8 /home/deivid/projeto/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\HomeController->home()
+#9 /home/deivid/projeto/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 /home/deivid/projeto/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/deivid/projeto/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /home/deivid/projeto/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 /home/deivid/projeto/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#14 /home/deivid/projeto/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('...')
+#15 {main}
+CRITICAL - 2024-08-27 19:39:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'connectionusa.admin' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/Admin/Token.php(76): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Controllers/HomeController.php(14): App\Models\Admin\Token->getToken()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->home()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+CRITICAL - 2024-08-27 19:39:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'connectionusa.admin' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH/Models/Admin/Token.php(76): CodeIgniter\BaseModel->first()
+ 7 APPPATH/Controllers/HomeController.php(14): App\Models\Admin\Token->getToken()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->home()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+CRITICAL - 2024-08-27 19:39:33 --> [Caused by] mysqli_sql_exception: Table 'connectionusa.admin' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Models/Admin/Token.php(76): CodeIgniter\BaseModel->first()
+ 8 APPPATH/Controllers/HomeController.php(14): App\Models\Admin\Token->getToken()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\HomeController->home()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 19:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:50:31 --> CSRF token verified.
+INFO - 2024-08-27 19:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:51:52 --> CSRF token verified.
+INFO - 2024-08-27 19:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:52:43 --> CSRF token verified.
+ALERT - 2024-08-27 19:52:43 --> variavel é: sc
+INFO - 2024-08-27 19:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:52:46 --> CSRF token verified.
+ALERT - 2024-08-27 19:52:46 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 19:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:52:52 --> CSRF token verified.
+ALERT - 2024-08-27 19:52:52 --> foi
+INFO - 2024-08-27 19:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:53:48 --> CSRF token verified.
+ALERT - 2024-08-27 19:53:48 --> foi
+CRITICAL - 2024-08-27 19:53:48 --> CodeIgniter\Validation\Exceptions\ValidationException: "alpha_numeric_spaces" is not a valid rule.
+[Method: POST, Route: detalhes/atualize]
+in SYSTEMPATH/Validation/Validation.php on line 345.
+ 1 SYSTEMPATH/Validation/Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(201): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/AdminController.php(137): CodeIgniter\Controller->validateData()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->atualize()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 19:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 19:54:29 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/atualize]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 19:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:56:39 --> CSRF token verified.
+ALERT - 2024-08-27 19:56:39 --> variavel é: sc
+INFO - 2024-08-27 19:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:56:40 --> CSRF token verified.
+ALERT - 2024-08-27 19:56:40 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 19:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 19:56:56 --> CSRF token verified.
+ALERT - 2024-08-27 19:56:56 --> foi
+INFO - 2024-08-27 20:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:30:14 --> CSRF token verified.
+ALERT - 2024-08-27 20:30:14 --> variavel é: ge
+INFO - 2024-08-27 20:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:30:15 --> CSRF token verified.
+ALERT - 2024-08-27 20:30:15 --> a tabela é: ge e o id é: tal
+INFO - 2024-08-27 20:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:30:34 --> CSRF token verified.
+ALERT - 2024-08-27 20:30:34 --> foi
+CRITICAL - 2024-08-27 20:30:34 --> Error: Class "App\Models\Salvar\Salvar" not found
+[Method: POST, Route: detalhes/atualize]
+in APPPATH/Controllers/AdminController.php on line 250.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AdminController->atualize()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 20:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 20:32:26 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: detalhes/atualize]
+in SYSTEMPATH/Security/Security.php on line 262.
+ 1 SYSTEMPATH/Security/Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(57): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 20:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:35:18 --> CSRF token verified.
+ALERT - 2024-08-27 20:35:18 --> variavel é: sc
+INFO - 2024-08-27 20:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:35:19 --> CSRF token verified.
+ALERT - 2024-08-27 20:35:19 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 20:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:35:24 --> CSRF token verified.
+ALERT - 2024-08-27 20:35:24 --> foi
+INFO - 2024-08-27 20:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:37:10 --> CSRF token verified.
+ALERT - 2024-08-27 20:37:10 --> foi
+INFO - 2024-08-27 20:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:39:58 --> CSRF token verified.
+ALERT - 2024-08-27 20:39:58 --> foi
+INFO - 2024-08-27 20:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:40:13 --> CSRF token verified.
+ALERT - 2024-08-27 20:40:13 --> variavel é: wa
+INFO - 2024-08-27 20:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:40:14 --> CSRF token verified.
+ALERT - 2024-08-27 20:40:14 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 20:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:40:42 --> CSRF token verified.
+ALERT - 2024-08-27 20:40:42 --> foi
+INFO - 2024-08-27 20:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:40:50 --> CSRF token verified.
+ALERT - 2024-08-27 20:40:50 --> variavel é: wa
+INFO - 2024-08-27 20:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:40:51 --> CSRF token verified.
+ALERT - 2024-08-27 20:40:51 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 20:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:43:11 --> CSRF token verified.
+ALERT - 2024-08-27 20:43:11 --> variavel é: wa
+INFO - 2024-08-27 20:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:43:12 --> CSRF token verified.
+ALERT - 2024-08-27 20:43:12 --> variavel é: wa
+INFO - 2024-08-27 20:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:43:13 --> CSRF token verified.
+ALERT - 2024-08-27 20:43:13 --> variavel é: wa
+INFO - 2024-08-27 20:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:43:19 --> CSRF token verified.
+ALERT - 2024-08-27 20:43:19 --> variavel é: wa
+INFO - 2024-08-27 20:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:43:20 --> CSRF token verified.
+ALERT - 2024-08-27 20:43:20 --> variavel é: wa
+INFO - 2024-08-27 20:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:43:56 --> CSRF token verified.
+ALERT - 2024-08-27 20:43:56 --> variavel é: wa
+INFO - 2024-08-27 20:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:48:14 --> CSRF token verified.
+ALERT - 2024-08-27 20:48:14 --> variavel é: wa
+INFO - 2024-08-27 20:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:48:28 --> CSRF token verified.
+ALERT - 2024-08-27 20:48:28 --> variavel é: wa
+INFO - 2024-08-27 20:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:48:29 --> CSRF token verified.
+ALERT - 2024-08-27 20:48:29 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 20:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:48:33 --> CSRF token verified.
+ALERT - 2024-08-27 20:48:33 --> foi
+INFO - 2024-08-27 20:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:49:02 --> CSRF token verified.
+ALERT - 2024-08-27 20:49:02 --> variavel é: wa
+INFO - 2024-08-27 20:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:49:03 --> CSRF token verified.
+ALERT - 2024-08-27 20:49:03 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 20:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:49:06 --> CSRF token verified.
+ALERT - 2024-08-27 20:49:06 --> foi
+INFO - 2024-08-27 20:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:49:22 --> CSRF token verified.
+ALERT - 2024-08-27 20:49:22 --> variavel é: va
+INFO - 2024-08-27 20:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:49:22 --> CSRF token verified.
+ALERT - 2024-08-27 20:49:22 --> a tabela é: va e o id é: uce
+INFO - 2024-08-27 20:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:49:29 --> CSRF token verified.
+ALERT - 2024-08-27 20:49:29 --> foi
+INFO - 2024-08-27 20:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:11 --> CSRF token verified.
+ALERT - 2024-08-27 20:51:11 --> variavel é: sc
+INFO - 2024-08-27 20:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:13 --> CSRF token verified.
+ALERT - 2024-08-27 20:51:13 --> a tabela é: sc e o id é: ant
+INFO - 2024-08-27 20:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:17 --> CSRF token verified.
+ALERT - 2024-08-27 20:51:17 --> foi
+INFO - 2024-08-27 20:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:31 --> CSRF token verified.
+ALERT - 2024-08-27 20:51:31 --> foi
+INFO - 2024-08-27 20:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:33 --> CSRF token verified.
+ALERT - 2024-08-27 20:51:33 --> variavel é: sc
+INFO - 2024-08-27 20:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:39 --> CSRF token verified.
+ALERT - 2024-08-27 20:51:39 --> variavel é: wa
+INFO - 2024-08-27 20:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:40 --> CSRF token verified.
+ALERT - 2024-08-27 20:51:40 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 20:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:50 --> CSRF token verified.
+ALERT - 2024-08-27 20:51:50 --> foi
+INFO - 2024-08-27 20:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:51 --> CSRF token verified.
+ALERT - 2024-08-27 20:51:51 --> variavel é: wa
+INFO - 2024-08-27 20:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 20:51:53 --> CSRF token verified.
+ALERT - 2024-08-27 20:51:53 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 21:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:03:42 --> CSRF token verified.
+ALERT - 2024-08-27 21:03:42 --> variavel é: wa
+INFO - 2024-08-27 21:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:03:43 --> CSRF token verified.
+ALERT - 2024-08-27 21:03:43 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 21:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:03:54 --> CSRF token verified.
+ALERT - 2024-08-27 21:03:54 --> foi
+INFO - 2024-08-27 21:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:05:00 --> CSRF token verified.
+ALERT - 2024-08-27 21:05:00 --> variavel é: fl
+INFO - 2024-08-27 21:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:05:01 --> CSRF token verified.
+ALERT - 2024-08-27 21:05:01 --> variavel é: wa
+INFO - 2024-08-27 21:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:05:02 --> CSRF token verified.
+ALERT - 2024-08-27 21:05:02 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 21:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:05:15 --> CSRF token verified.
+ALERT - 2024-08-27 21:05:15 --> foi
+INFO - 2024-08-27 21:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:05:17 --> CSRF token verified.
+ALERT - 2024-08-27 21:05:17 --> variavel é: wa
+INFO - 2024-08-27 21:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:05:19 --> CSRF token verified.
+ALERT - 2024-08-27 21:05:19 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 21:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:07:08 --> CSRF token verified.
+ALERT - 2024-08-27 21:07:08 --> variavel é: wa
+INFO - 2024-08-27 21:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:07:09 --> CSRF token verified.
+ALERT - 2024-08-27 21:07:09 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 21:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:07:35 --> CSRF token verified.
+ALERT - 2024-08-27 21:07:35 --> foi
+INFO - 2024-08-27 21:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:07:37 --> CSRF token verified.
+ALERT - 2024-08-27 21:07:37 --> variavel é: wa
+INFO - 2024-08-27 21:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:07:39 --> CSRF token verified.
+ALERT - 2024-08-27 21:07:39 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 21:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:07:49 --> CSRF token verified.
+ALERT - 2024-08-27 21:07:49 --> foi
+INFO - 2024-08-27 21:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:07:50 --> CSRF token verified.
+ALERT - 2024-08-27 21:07:50 --> variavel é: wa
+INFO - 2024-08-27 21:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:07:51 --> CSRF token verified.
+ALERT - 2024-08-27 21:07:51 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 21:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:17:20 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:17:44 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:18:05 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:18:06 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:18:57 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:19:11 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:19:56 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:20:07 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:20:19 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:21:12 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:24:16 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:24:25 --> ErrorException: Undefined array key "accessadmin"
+[Method: GET, Route: accessadmin]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 45.
+ 1 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:24:30 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:24:35 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(31): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:26:01 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "login" cannot be found.
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 64.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Filters/SessionAuth.php(92): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 SYSTEMPATH/Filters/Filters.php(203): CodeIgniter\Shield\Filters\SessionAuth->before()
+ 4 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\Filters->runBefore()
+ 5 SYSTEMPATH/CodeIgniter.php(481): CodeIgniter\Filters\Filters->run()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:30:52 --> ErrorException: Undefined array key "login"
+[Method: GET, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 45.
+ 1 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:31:06 --> ErrorException: Undefined array key "login"
+[Method: GET, Route: login]
+in VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php on line 45.
+ 1 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:49:42 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(30): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:51:54 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(30): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:51:55 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(30): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:55:25 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(30): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:56:09 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(30): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:56:09 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(30): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-27 21:56:13 --> CodeIgniter\Router\Exceptions\RouterException: The route for "login" cannot be found.
+[Method: GET, Route: accessadmin]
+in SYSTEMPATH/Helpers/url_helper.php on line 494.
+ 1 SYSTEMPATH/Helpers/url_helper.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute()
+ 2 VENDORPATH/codeigniter4/shield/src/Views/login.php(30): url_to()
+ 3 SYSTEMPATH/View/View.php(234): include('/home/deivid/projeto/vendor/codeigniter4/shield/src/Views/login.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render()
+ 6 VENDORPATH/codeigniter4/shield/src/Traits/Viewable.php(25): view()
+ 7 VENDORPATH/codeigniter4/shield/src/Controllers/LoginController.php(45): CodeIgniter\Shield\Controllers\LoginController->view()
+ 8 APPPATH/Controllers/LoginController.php(12): CodeIgniter\Shield\Controllers\LoginController->loginView()
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\LoginController->loginView()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH/rewrite.php(44): require_once('/home/deivid/projeto/public/index.php')
+INFO - 2024-08-27 21:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:57:58 --> CSRF token verified.
+INFO - 2024-08-27 21:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:58:02 --> CSRF token verified.
+INFO - 2024-08-27 21:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:58:04 --> CSRF token verified.
+INFO - 2024-08-27 21:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:59:41 --> CSRF token verified.
+INFO - 2024-08-27 21:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 21:59:57 --> CSRF token verified.
+INFO - 2024-08-27 21:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:00:02 --> CSRF token verified.
+INFO - 2024-08-27 22:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:00:07 --> CSRF token verified.
+ALERT - 2024-08-27 22:00:07 --> variavel é: wa
+INFO - 2024-08-27 22:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:00:08 --> CSRF token verified.
+ALERT - 2024-08-27 22:00:08 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 22:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:00:16 --> CSRF token verified.
+ALERT - 2024-08-27 22:00:16 --> foi
+INFO - 2024-08-27 22:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:00:18 --> CSRF token verified.
+ALERT - 2024-08-27 22:00:18 --> variavel é: wa
+INFO - 2024-08-27 22:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:00:19 --> CSRF token verified.
+ALERT - 2024-08-27 22:00:19 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 22:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:30:39 --> CSRF token verified.
+ALERT - 2024-08-27 22:30:39 --> variavel é: tx
+INFO - 2024-08-27 22:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:31:32 --> CSRF token verified.
+ALERT - 2024-08-27 22:31:32 --> variavel é: dc
+INFO - 2024-08-27 22:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 22:34:32 --> CSRF token verified.
+ALERT - 2024-08-27 22:34:32 --> variavel é: dc
+INFO - 2024-08-27 23:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:19:39 --> CSRF token verified.
+ALERT - 2024-08-27 23:19:39 --> variavel é: tx
+INFO - 2024-08-27 23:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:22:32 --> CSRF token verified.
+ALERT - 2024-08-27 23:22:32 --> variavel é: co
+INFO - 2024-08-27 23:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:23:29 --> CSRF token verified.
+ALERT - 2024-08-27 23:23:29 --> variavel é: hi
+INFO - 2024-08-27 23:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:25:01 --> CSRF token verified.
+ALERT - 2024-08-27 23:25:01 --> variavel é: tx
+INFO - 2024-08-27 23:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:26:27 --> CSRF token verified.
+ALERT - 2024-08-27 23:26:27 --> variavel é: tx
+INFO - 2024-08-27 23:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:27:05 --> CSRF token verified.
+ALERT - 2024-08-27 23:27:05 --> variavel é: tx
+INFO - 2024-08-27 23:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:28:41 --> CSRF token verified.
+ALERT - 2024-08-27 23:28:41 --> variavel é: md
+INFO - 2024-08-27 23:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:28:45 --> CSRF token verified.
+ALERT - 2024-08-27 23:28:45 --> variavel é: nj
+INFO - 2024-08-27 23:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:28:48 --> CSRF token verified.
+ALERT - 2024-08-27 23:28:48 --> variavel é: hi
+INFO - 2024-08-27 23:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:28:52 --> CSRF token verified.
+ALERT - 2024-08-27 23:28:52 --> variavel é: va
+INFO - 2024-08-27 23:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:28:56 --> CSRF token verified.
+ALERT - 2024-08-27 23:28:56 --> variavel é: cn
+INFO - 2024-08-27 23:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:32:02 --> CSRF token verified.
+ALERT - 2024-08-27 23:32:02 --> variavel é: tx
+INFO - 2024-08-27 23:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:32:04 --> CSRF token verified.
+ALERT - 2024-08-27 23:32:04 --> a tabela é: tx e o id é: lci
+INFO - 2024-08-27 23:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:32:10 --> CSRF token verified.
+ALERT - 2024-08-27 23:32:10 --> variavel é: fl
+INFO - 2024-08-27 23:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:32:13 --> CSRF token verified.
+ALERT - 2024-08-27 23:32:13 --> a tabela é: fl e o id é: ant
+INFO - 2024-08-27 23:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:32:53 --> CSRF token verified.
+ALERT - 2024-08-27 23:32:53 --> variavel é: ca
+INFO - 2024-08-27 23:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:33:10 --> CSRF token verified.
+ALERT - 2024-08-27 23:33:10 --> variavel é: ny
+INFO - 2024-08-27 23:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:33:12 --> CSRF token verified.
+ALERT - 2024-08-27 23:33:12 --> a tabela é: ny e o id é: uce
+INFO - 2024-08-27 23:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:33:15 --> CSRF token verified.
+ALERT - 2024-08-27 23:33:15 --> a tabela é: ny e o id é: nyl
+INFO - 2024-08-27 23:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:33:23 --> CSRF token verified.
+ALERT - 2024-08-27 23:33:23 --> variavel é: wa
+INFO - 2024-08-27 23:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:33:24 --> CSRF token verified.
+ALERT - 2024-08-27 23:33:24 --> a tabela é: wa e o id é: alp
+INFO - 2024-08-27 23:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:33:29 --> CSRF token verified.
+ALERT - 2024-08-27 23:33:29 --> variavel é: fl
+INFO - 2024-08-27 23:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:33:31 --> CSRF token verified.
+ALERT - 2024-08-27 23:33:31 --> a tabela é: fl e o id é: har
+INFO - 2024-08-27 23:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:33:34 --> CSRF token verified.
+ALERT - 2024-08-27 23:33:34 --> a tabela é: fl e o id é: ant
+INFO - 2024-08-27 23:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:08 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:08 --> variavel é: ut
+INFO - 2024-08-27 23:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:10 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:10 --> a tabela é: ut e o id é: int
+INFO - 2024-08-27 23:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:12 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:12 --> a tabela é: ut e o id é: inx
+INFO - 2024-08-27 23:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:15 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:15 --> a tabela é: ut e o id é: lum
+INFO - 2024-08-27 23:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:17 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:17 --> a tabela é: ut e o id é: inx
+INFO - 2024-08-27 23:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:20 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:20 --> a tabela é: ut e o id é: lum
+INFO - 2024-08-27 23:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:24 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:24 --> a tabela é: ut e o id é: int
+INFO - 2024-08-27 23:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:31 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:31 --> variavel é: va
+INFO - 2024-08-27 23:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:32 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:32 --> a tabela é: va e o id é: uce
+INFO - 2024-08-27 23:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:38 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:38 --> a tabela é: va e o id é: lad
+INFO - 2024-08-27 23:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:42 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:42 --> variavel é: ind
+INFO - 2024-08-27 23:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:44 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:44 --> a tabela é: ind e o id é: ant
+INFO - 2024-08-27 23:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:34:50 --> CSRF token verified.
+ALERT - 2024-08-27 23:34:50 --> a tabela é: ind e o id é: int
+INFO - 2024-08-27 23:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:35:30 --> CSRF token verified.
+ALERT - 2024-08-27 23:35:30 --> a tabela é: ind e o id é: ant
+INFO - 2024-08-27 23:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:35:34 --> CSRF token verified.
+ALERT - 2024-08-27 23:35:34 --> variavel é: fl
+INFO - 2024-08-27 23:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:35:36 --> CSRF token verified.
+ALERT - 2024-08-27 23:35:36 --> a tabela é: fl e o id é: ant
+INFO - 2024-08-27 23:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:35:38 --> CSRF token verified.
+ALERT - 2024-08-27 23:35:38 --> a tabela é: fl e o id é: har
+INFO - 2024-08-27 23:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:35:42 --> CSRF token verified.
+ALERT - 2024-08-27 23:35:42 --> a tabela é: fl e o id é: tal
+INFO - 2024-08-27 23:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:35:45 --> CSRF token verified.
+ALERT - 2024-08-27 23:35:45 --> a tabela é: fl e o id é: lib
+INFO - 2024-08-27 23:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:35:48 --> CSRF token verified.
+ALERT - 2024-08-27 23:35:48 --> a tabela é: fl e o id é: uce
+INFO - 2024-08-27 23:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:40:53 --> CSRF token verified.
+INFO - 2024-08-27 23:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-27 23:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

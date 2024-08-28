@@ -1,0 +1,125 @@
+{
+    "nav": {
+      "home": "Home",
+      "servicos": "Services",
+      "estude": "Study In USA",
+      "planejamento": "Planning",
+      "contato": "Contact",
+      "sobrenos": "About Us"
+    },
+    "menu": {
+        "home": "Home",
+        "servicos": "Services",
+        "estude": "Study In USA",
+        "planejamento": "Planning",
+        "contato": "Contact",
+        "sobrenos": "About Us"
+    },
+    "fr": {
+        "pri": "'Open yourself to the new and discover a world of opportunities.'",
+        "seg": "'The best stories are found between the pages of a passport.'",
+        "ter": "'The goal is to die with memories, not dreams.'",
+        "qua": "'The world is a book, and those who do not travel read only the first page.'",
+        "qui": "'Connection USA, Your best connection abroad!'"
+    },
+    "smc": {
+        "um" :"Connection USA,",
+        "dois" :"Your best connection abroad!"
+    } ,
+    "contato": "Contact",
+    "qso": {
+      "pt1": "Who We Are:",
+      "pt2": "Welcome to",
+      "pt3": "Discover an efficient and reliable path to achieving your American dream! We are an immigration agency specializing in Green Card processes through marriage, Removal of Conditions, Citizenship, Change and Extension of Status, visas, and more. Our mission is to make this journey simpler, more efficient, and less stressful for you. Our dedicated team of trained professionals is prepared to guide you through each step of the process, from application to approval. Contact our team of specialists today to take the first step toward realizing your dream. At Connection USA, we are committed to transforming your dream into reality."
+    },
+    "serv": {
+      "pt1": "Our consultancy",
+      "pt2": {
+        "pt1": "Did you know that Connection can assist you from ",
+        "pt2": "applying for a visa",
+        "pt3": " in your home country to applying for ",
+        "pt4": "American citizenship",
+        "pt5": "? Additionally, we also provide assistance for Canadian visas, sworn translation of documents, and",
+        "pt6": "much more!"
+      }
+    },
+    "serv_m": {
+      "pt1": {
+        "pt1": "Change of Status",
+        "pt2": "Looking to change your status within the USA to study or travel and unsure how?",
+        "pt3": "This is a great opportunity for those already in the United States, such as tourists, who wish to stay in the country for studying. With the Change of Status, you don't need to return to your home country for the visa application process. Connection USA partners with various English schools and can assist you throughout the entire process!"
+      },
+      "pt2": {
+        "pt1": "Extension of Status",
+        "pt2": "Did you come to the USA as a tourist and want to stay a bit longer?",
+        "pt3": "The Extension of Status is a recommended process for those in the United States with a valid tourist status who wish to extend their stay for a longer period. With this process, you can gain an additional 6 months of legal stay in the country to continue exploring and enjoying your travel plans to the fullest. Connection USA assists you with all the bureaucratic process, from assembling your application to its approval."
+      },
+      "pt3": {
+        "pt1": "Other Services",
+        "pt2": "Connection USA provides visa support and much more!",
+        "pt3": "We offer visa assistance, including tourist visas, student visas, cultural exchange visas such as au pair and work and travel, Employment-based visas and Green Cards like EB2, EB2-NIW, and EB3, religious visas, artist visas, and many others. Additionally, we assist with the application or renewal of your American passport in the USA, and application for the Global Entry program."
+      },
+      "pt4": {
+        "pt1": "Green Card through Marriage",
+        "pt2": "Have you married an American citizen and don't know where to start with your Green Card application?",
+        "pt3": "This category of Green Card is a form of family reunification and allows the foreign spouse to live and work legally in the United States permanently. To obtain a Marriage Green Card, the couple must prove they have a valid and genuine marriage, not entered into solely for immigration benefits. It is necessary to provide solid evidence that the marriage is legitimate, such as wedding photos, joint bank accounts, utility bills in both names, among other documents."
+      },
+      "pt5": {
+        "pt1": "Removal of Conditions",
+        "pt2": "Is your 2-year conditional Green Card expiring?",
+        "pt3": "There is a mandatory renewal process for those holding a Green Card obtained through marriage. The marriage-based Green Card is initially valid for 2 years and is conditional, requiring that you maintain a bona fide marriage. After the 2-year validity period of the marriage-based Green Card, it is necessary to apply for the removal of conditions. This process removes the condition to remain married to a US citizen, and you receive a new Green Card valid for 10 years."
+      },
+      "pt6": {
+        "pt1": "American Citizenship",
+        "pt2": "Have you completed the minimum residency requirement as a Permanent Resident and want to apply for citizenship?",
+        "pt3": "There are several pathways to becoming a U.S. citizen, such as birth in the United States, having a U.S. citizen parent, or through the naturalization process. Each of these pathways has specific legal requirements that must be met. If you are looking to apply for citizenship through naturalization, Connection USA is here to assist you. To qualify, you must be a Legal Permanent Resident in the country (a Green Card holder) for a specific period of time, which can range from 3 to 5 years. After this period, you can naturalize in the United States and obtain the coveted American Passport, allowing you to enjoy all the benefits of being a citizen of the United States."
+      }
+    },
+    "consultoria": {
+      "pt1": "Free Consultation",
+      "pt2": {
+        "pt1": "Connection USA offers an exclusive free planning session for you to address all your questions about ",
+        "pt2": "immigration processes!",
+        "pt3": " The video call or voice call consultation lasts up to 30 minutes, during which one of our specialists will answer your questions and explain everything you need to know about the process."
+      },
+      "pt3": "Available only for Immigration Processes! Visa process consultation available via WhatsApp. Don't waste time. Schedule your call now.",
+      "pt4": {
+        "pt1": "Do not waste time.",
+        "pt2": "Schedule ",
+        "pt3": "your call now."
+      },
+      "pt5": "Schedule my meeting now"
+    },
+    "intercambio":{
+      "pt1": "Make your internship with us!",
+      "pt2": "Connection USA assists you at every stage of the process, from enrolling in a associate English school to your visa application. Come and have an unforgettable experience abroad and live the best experience of your life!"
+    },
+    "percentual": {
+      "title": "Your success is our satisfaction",
+      "pt1": "satisfaction with Connection USA services, as there is always room for improvement.",
+      "pt2": "professionalism and competence in managing all processes.",
+      "pt3": "approval rate in Green Card processes."
+    },
+    "greencard":{
+      "title": {
+        "pt1": "Did you get married and want to apply for your ",
+        "pt2": "Green Card?"
+      },
+      "pt1" : "Leave the bureaucracy to us! Connection USA is a specialized company in immigration processes and is here to help you!",
+      "pt2": "Don't waste time!",
+      "art": "With a 100% approval rate, we provide comprehensive and meticulous assistance for assembling and overseeing your process. We are always attentive to the smallest details to increase your chances of approval and minimize unexpected setbacks and headaches. We offer full monitoring of your process until you receive your Green Card! Connection USA is always one step ahead to ensure your satisfaction and the best possible outcome.",
+      "contato": "Contact us"
+    },
+    "depoimentos":{
+      "title": "Depositions",
+      "pt2": "Thank you so much for providing me with such excellent service... You are someone who does your job with excellence... something that is very hard to find these days... Congratulations!",
+      "pt3": "Thank you so much, Matheus! You are wonderful! Thank you for your patience and attention! Even with all my questions, confusions, and insecurities. You answered even the questions that weren't related to the process, with a lot of care, attention, and respect! Thank you so much ❤️! Blessings beyond measure in your life and work."
+    },
+    "infoheader": {
+      "pt1": " YOUR BEST CONNECTION ABROAD!",
+      "pt2": "Learn more",
+      "pt3": " 'I can do all things through Christ who strengthens me.' (Philippians 4:13)",
+      "pt4": "Privacy Policy"
+    },
+    "desenvolvedor": "2024 © Developed by Magnos. All rights reserved"
+  }

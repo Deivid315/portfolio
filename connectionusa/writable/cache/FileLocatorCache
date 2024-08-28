@@ -1,0 +1,371 @@
+<?php return array (
+  'search' => 
+  array (
+    'Config/Services' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/app/Config/Services.php',
+          1 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Config/Services.php',
+          2 => '/home/deivid/projeto/vendor/codeigniter4/settings/src/Config/Services.php',
+          3 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Config/Services.php',
+        ),
+      ),
+    ),
+    'Config/Registrar.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Config/Registrar.php',
+        ),
+      ),
+    ),
+    'Helpers/kint_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Helpers/kint_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/url_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Helpers/url_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/auth_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Helpers/auth_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/setting_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/settings/src/Helpers/setting_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/array_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Helpers/array_helper.php',
+        ),
+      ),
+    ),
+    'Config/AuthRoutes' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Config/AuthRoutes.php',
+        ),
+      ),
+    ),
+    'Config/Routes.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/app/Config/Routes.php',
+        ),
+      ),
+    ),
+    'Helpers/filesystem_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Helpers/filesystem_helper.php',
+        ),
+      ),
+    ),
+    'Config/Events.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/app/Config/Events.php',
+        ),
+      ),
+    ),
+    'Config/Filters.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/app/Config/Filters.php',
+          1 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Config/Filters.php',
+        ),
+      ),
+    ),
+    'Config/Factory' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Config/Factory.php',
+        ),
+      ),
+    ),
+    'Config/Settings' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/settings/src/Config/Settings.php',
+        ),
+      ),
+    ),
+    'Helpers/security_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Helpers/security_helper.php',
+        ),
+      ),
+    ),
+    'Language/en/HTTP.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Language/en/HTTP.php',
+        ),
+      ),
+    ),
+    'Helpers/number_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Helpers/number_helper.php',
+        ),
+      ),
+    ),
+    'Language/en/Number.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Language/en/Number.php',
+        ),
+      ),
+    ),
+    'Language/en/Auth.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Language/en/Auth.php',
+        ),
+      ),
+    ),
+  ),
+  'findQualifiedNameFromPath' => 
+  array (
+    '/home/deivid/projeto/app/Config/Services.php' => 'Config\\Services',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Config/Services.php' => 'CodeIgniter\\Shield\\Config\\Services',
+    '/home/deivid/projeto/vendor/codeigniter4/settings/src/Config/Services.php' => 'CodeIgniter\\Settings\\Config\\Services',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Config/Registrar.php' => 'CodeIgniter\\Shield\\Config\\Registrar',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Config/AuthRoutes.php' => 'CodeIgniter\\Shield\\Config\\AuthRoutes',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/BaseCommand.php' => 'CodeIgniter\\Shield\\Commands\\BaseCommand',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Exceptions/BadInputException.php' => 'CodeIgniter\\Shield\\Commands\\Exceptions\\BadInputException',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Exceptions/CancelException.php' => 'CodeIgniter\\Shield\\Commands\\Exceptions\\CancelException',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Generators/UserModelGenerator.php' => 'CodeIgniter\\Shield\\Commands\\Generators\\UserModelGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Generators/Views/usermodel.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Hmac.php' => 'CodeIgniter\\Shield\\Commands\\Hmac',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Setup.php' => 'CodeIgniter\\Shield\\Commands\\Setup',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Setup/ContentReplacer.php' => 'CodeIgniter\\Shield\\Commands\\Setup\\ContentReplacer',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/User.php' => 'CodeIgniter\\Shield\\Commands\\User',
+    '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Utils/InputOutput.php' => 'CodeIgniter\\Shield\\Commands\\Utils\\InputOutput',
+    '/home/deivid/projeto/vendor/codeigniter4/settings/src/Commands/ClearSettings.php' => 'CodeIgniter\\Settings\\Commands\\ClearSettings',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Cache/ClearCache.php' => 'CodeIgniter\\Commands\\Cache\\ClearCache',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Cache/InfoCache.php' => 'CodeIgniter\\Commands\\Cache\\InfoCache',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php' => 'CodeIgniter\\Commands\\Database\\CreateDatabase',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php' => 'CodeIgniter\\Commands\\Database\\Migrate',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/MigrateRefresh.php' => 'CodeIgniter\\Commands\\Database\\MigrateRefresh',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/MigrateRollback.php' => 'CodeIgniter\\Commands\\Database\\MigrateRollback',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/MigrateStatus.php' => 'CodeIgniter\\Commands\\Database\\MigrateStatus',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/Seed.php' => 'CodeIgniter\\Commands\\Database\\Seed',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/ShowTableInfo.php' => 'CodeIgniter\\Commands\\Database\\ShowTableInfo',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Encryption/GenerateKey.php' => 'CodeIgniter\\Commands\\Encryption\\GenerateKey',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/CellGenerator.php' => 'CodeIgniter\\Commands\\Generators\\CellGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/CommandGenerator.php' => 'CodeIgniter\\Commands\\Generators\\CommandGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/ConfigGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ConfigGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/ControllerGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ControllerGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/EntityGenerator.php' => 'CodeIgniter\\Commands\\Generators\\EntityGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/FilterGenerator.php' => 'CodeIgniter\\Commands\\Generators\\FilterGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/MigrationGenerator.php' => 'CodeIgniter\\Commands\\Generators\\MigrationGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/ModelGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ModelGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/ScaffoldGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ScaffoldGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/SeederGenerator.php' => 'CodeIgniter\\Commands\\Generators\\SeederGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/TestGenerator.php' => 'CodeIgniter\\Commands\\Generators\\TestGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/ValidationGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ValidationGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/cell.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/cell_view.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/command.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/config.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/controller.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/entity.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/filter.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/migration.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/model.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/seeder.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/test.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/validation.tpl.php' => false,
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Help.php' => 'CodeIgniter\\Commands\\Help',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Housekeeping/ClearDebugbar.php' => 'CodeIgniter\\Commands\\Housekeeping\\ClearDebugbar',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Housekeeping/ClearLogs.php' => 'CodeIgniter\\Commands\\Housekeeping\\ClearLogs',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/ListCommands.php' => 'CodeIgniter\\Commands\\ListCommands',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Server/Serve.php' => 'CodeIgniter\\Commands\\Server\\Serve',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Translation/LocalizationFinder.php' => 'CodeIgniter\\Commands\\Translation\\LocalizationFinder',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/ConfigCheck.php' => 'CodeIgniter\\Commands\\Utilities\\ConfigCheck',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Environment.php' => 'CodeIgniter\\Commands\\Utilities\\Environment',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/FilterCheck.php' => 'CodeIgniter\\Commands\\Utilities\\FilterCheck',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Namespaces.php' => 'CodeIgniter\\Commands\\Utilities\\Namespaces',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Optimize.php' => 'CodeIgniter\\Commands\\Utilities\\Optimize',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/PhpIniCheck.php' => 'CodeIgniter\\Commands\\Utilities\\PhpIniCheck',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Publish.php' => 'CodeIgniter\\Commands\\Utilities\\Publish',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes.php' => 'CodeIgniter\\Commands\\Utilities\\Routes',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/AutoRouteCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouteCollector',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/AutoRouterImproved/AutoRouteCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouterImproved\\AutoRouteCollector',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouterImproved\\ControllerMethodReader',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/ControllerFinder.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\ControllerFinder',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/ControllerMethodReader.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\ControllerMethodReader',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/FilterCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\FilterCollector',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/FilterFinder.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\FilterFinder',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/SampleURIGenerator.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\SampleURIGenerator',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Config/Factory.php' => 'CodeIgniter\\Config\\Factory',
+    '/home/deivid/projeto/vendor/codeigniter4/settings/src/Config/Settings.php' => 'CodeIgniter\\Settings\\Config\\Settings',
+  ),
+  'listFiles' => 
+  array (
+    'Commands/' => 
+    array (
+      0 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/BaseCommand.php',
+      1 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Exceptions/BadInputException.php',
+      2 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Exceptions/CancelException.php',
+      3 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Generators/UserModelGenerator.php',
+      4 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Generators/Views/usermodel.tpl.php',
+      5 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Hmac.php',
+      6 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Setup.php',
+      7 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Setup/ContentReplacer.php',
+      8 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/User.php',
+      9 => '/home/deivid/projeto/vendor/codeigniter4/shield/src/Commands/Utils/InputOutput.php',
+      10 => '/home/deivid/projeto/vendor/codeigniter4/settings/src/Commands/ClearSettings.php',
+      11 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Cache/ClearCache.php',
+      12 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Cache/InfoCache.php',
+      13 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php',
+      14 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/Migrate.php',
+      15 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/MigrateRefresh.php',
+      16 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/MigrateRollback.php',
+      17 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/MigrateStatus.php',
+      18 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/Seed.php',
+      19 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Database/ShowTableInfo.php',
+      20 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Encryption/GenerateKey.php',
+      21 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/CellGenerator.php',
+      22 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/CommandGenerator.php',
+      23 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/ConfigGenerator.php',
+      24 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/ControllerGenerator.php',
+      25 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/EntityGenerator.php',
+      26 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/FilterGenerator.php',
+      27 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/MigrationGenerator.php',
+      28 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/ModelGenerator.php',
+      29 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/ScaffoldGenerator.php',
+      30 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/SeederGenerator.php',
+      31 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/TestGenerator.php',
+      32 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/ValidationGenerator.php',
+      33 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/cell.tpl.php',
+      34 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/cell_view.tpl.php',
+      35 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/command.tpl.php',
+      36 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/config.tpl.php',
+      37 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/controller.tpl.php',
+      38 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/entity.tpl.php',
+      39 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/filter.tpl.php',
+      40 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/migration.tpl.php',
+      41 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/model.tpl.php',
+      42 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/seeder.tpl.php',
+      43 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/test.tpl.php',
+      44 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Generators/Views/validation.tpl.php',
+      45 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Help.php',
+      46 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Housekeeping/ClearDebugbar.php',
+      47 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Housekeeping/ClearLogs.php',
+      48 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/ListCommands.php',
+      49 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Server/Serve.php',
+      50 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Translation/LocalizationFinder.php',
+      51 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/ConfigCheck.php',
+      52 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Environment.php',
+      53 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/FilterCheck.php',
+      54 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Namespaces.php',
+      55 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Optimize.php',
+      56 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/PhpIniCheck.php',
+      57 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Publish.php',
+      58 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes.php',
+      59 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/AutoRouteCollector.php',
+      60 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/AutoRouterImproved/AutoRouteCollector.php',
+      61 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php',
+      62 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/ControllerFinder.php',
+      63 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/ControllerMethodReader.php',
+      64 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/FilterCollector.php',
+      65 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/FilterFinder.php',
+      66 => '/home/deivid/projeto/vendor/codeigniter4/framework/system/Commands/Utilities/Routes/SampleURIGenerator.php',
+    ),
+  ),
+  'getClassname' => 
+  array (
+    '/home/deivid/projeto/app/Config/Filters.php' => 'Config\\Filters',
+    '/home/deivid/projeto/vendor/codeigniter4/framework/system/Config/Filters.php' => 'CodeIgniter\\Config\\Filters',
+  ),
+  'locateFile' => 
+  array (
+    '\\CodeIgniter\\Shield\\Views\\login.php' => 
+    array (
+      'Views' => 
+      array (
+        'php' => '/home/deivid/projeto/vendor/composer/../codeigniter4/shield/src/Views/login.php',
+      ),
+    ),
+    '\\CodeIgniter\\Shield\\Views\\layout.php' => 
+    array (
+      'Views' => 
+      array (
+        'php' => '/home/deivid/projeto/vendor/composer/../codeigniter4/shield/src/Views/layout.php',
+      ),
+    ),
+  ),
+);

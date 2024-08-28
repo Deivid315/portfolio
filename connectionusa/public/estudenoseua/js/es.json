@@ -1,0 +1,35 @@
+{
+    "menu": {
+      "home": "Página de Inicio",
+      "servicos": "Servicios",
+      "estude": "Estudiar en EUA",
+      "planejamento": "Consultla",
+      "contato": "Contacto",
+      "sobrenos": "Sobre Nosotros"
+    },
+    "tit":{
+        "pt1": "Haz tu ",
+        "pt2": "intercambio",
+        "pt3": " con CONNECTION USA para estudiar en ",
+        "pt4": "Estados Unidos"
+    },
+    "text": "Realiza tu intercambio con CONNECTION USA para estudiar en Estados Unidos. ¡Convierte tus sueños académicos en realidad con CONNECTION USA! Ofrecemos un soporte completo para tu intercambio, guiándote hacia una experiencia educativa única en Estados Unidos. Confía en nosotros para proporcionarte el camino ideal y sumérgete en un aprendizaje enriquecedor. ¡Únete a nuestra comunidad de intercambistas y crea recuerdos inolvidables!",
+    "esc": "Escuelas asociadas de Connection USA",
+    "roma":{
+        "pt1": "¿Estás pensando en aplicar para tu visa?",
+        "pt2": "Facilita tu camino y deja la burocracia en nuestras manos. Ya sea para estudios, turismo, J-1, u otra categoría, estamos aquí para simplificar tu proceso. Confía en nuestra experiencia para orientación y apoyo, asegurando que tu experiencia sea libre de complicaciones. ¡Obtén tu visa con nosotros y prepárate para explorar nuevos horizontes con confianza y tranquilidad!"
+    },
+    "troc":{
+        "pt1": "¿Deseas cambiar tu estatus?",
+        "pt2": "¿Listo para un cambio? Si estás considerando cambiar tu estatus, estamos aquí para guiarte. Confía en nuestra asistencia especializada para facilitar esta transición, ya sea para estudiar, trabajar u otros propósitos. Transforma tu experiencia en Estados Unidos con nosotros, asegurando un proceso fluido y eficiente."
+    },
+    "mot": "'Atrévete a viajar, descubre la valentía en los horizontes desconocidos.'",
+    "infoheader": {
+      "pt1": " TU MEJOR CONEXIÓN EN EL EXTRANJERO!",
+      "pt2": "Más información",
+      "pt3": " 'Todo lo puedo en Cristo que me fortalece.' (Filipenses 4:13)",
+      "pt4": "Política de privacidad"
+    },
+    "desenvolvedor": "2024 © Desarrollado por Magnos. Todos los derechos reservados"
+  
+}

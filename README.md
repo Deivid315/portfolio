@@ -1,18 +1,17 @@
-Aqui estão 4 projetos feitos por mim:
+Aqui estão quatro projetos que desenvolvi:
 
-Connect - um site composto pois mais 5 páginas com HTML, CSS e JS, além de uma parte admin feita com PHP usando uma estrutura MVC. Foi construído o painel admin para o mesmo poder alterar algumas informações em texto do site como: email, telefone, etc.
+Connect - Um site com mais de cinco páginas, construído com CodeIgniter. Como o cliente desejava a capacidade de alterar alguns conteúdos do site, foi necessário criar uma página de administração e um banco de dados. Optamos por utilizar a estrutura do CodeIgniter e o MySQL, dado que o projeto era relativamente pequeno e rápido. O cliente pode acessar a página de administração, inserir o login e a senha fornecidos, fazer alterações nos dados, salvar no banco de dados e ver essas alterações refletidas nas páginas específicas.
 (https://connectionusa.net)
 
-Magnos - uma landing page simples feita com HTML, CSS, JS.
+Magnos - Uma landing page simples desenvolvida com HTML, CSS e JavaScript.
 (https://magnossites.com/)
 
-Elevadores - uma outra landing page simples feita com HTML, CSS, JS e um pouco de PHP para enviar o email.
+Elevadores - Outra landing page simples feita com HTML, CSS e JavaScript. O cliente solicitou um formulário de contato, então criei um script PHP básico para enviar e-mails.
 (https://eijelevadores.com/)
 
-Luxure - um sistema robusto semelhante a uma rede social podendo o usuário criar, suspender e deletar sua conta, além de postar, editar e remover seus dados. Construído com muitas tecnologias atuais como: PHP OO utilizando o Symfony, AWS S3 e CloudFront para armazenar os arquivos, MongoDB para salvar os links de referência a AWS juntamente com informações em texto (nome, idade, biografia, etc), AWS SQS como transport do serviço de mensageria e MySQL como callback caso o primeiro falhe, TWIG, SASS e TS para o front sendo utilizado o compilador Webpack devido a gama de arquivos (extensões como babel sendo usadas aqui), um servidor NodeJS criado com js vanilla para servir de suporte para o websocket (possibilitando a atualização dos arquivos em tempo real).
-(Finalizando o desenvolvimento apenas do front-end, posso mostrar o site atual se necessário, porém sem os estilos do front aplicados)
+Luxure - Um sistema robusto semelhante a uma rede social, permitindo que o usuário crie, suspenda e exclua sua conta, além de postar, editar e remover dados. Foi construído com diversas tecnologias modernas, incluindo PHP Orientado a Objetos utilizando Symfony, AWS S3 e CloudFront para armazenamento de arquivos, MongoDB para salvar links de referência à AWS e informações em texto (nome, idade, biografia, etc.), AWS SQS para mensageria, MySQL como backup, TWIG, SASS e TypeScript para o front-end, e o compilador Webpack para gerenciar os arquivos (incluindo extensões como Babel). Também desenvolvi um servidor Node.js com JavaScript Vanilla para suporte ao WebSocket, possibilitando a atualização em tempo real dos arquivos.
+(O front-end está quase concluído; posso mostrar o site atual se necessário, mas ainda sem os estilos aplicados.)
 
-Com isso sou capaz desde construir uma simples landing page a uma robusta rede social. Conheço do avançado mas nunca me esquecendo do simples e básico. Seja na parte Front-end ou Back-end tenho conhecimentos práticos e teóricos que me permitem entregar um trabalho de qualidade. No mundo da programação toda linguagem e conhecimento é válido de ser aprendido.
-Como Sócrates afirmou, 'Conhecimento é a única riqueza que não pode ser tirada de você.' Essa crença me impulsiona a buscar continuamente aprimoramento e inovação no campo da programação.
+Esses projetos demonstram minha capacidade de desenvolver desde landing pages simples até sistemas complexos. Tenho conhecimentos práticos e teóricos em front-end e back-end, o que me permite entregar trabalhos de alta qualidade. No mundo da programação, acredito que todo aprendizado é valioso. Como Sócrates afirmou: "Conhecimento é a única riqueza que não pode ser tirada de você." Essa crença me motiva a buscar continuamente o aprimoramento e a inovação.
 
-obs: em todos esse links no footer da página da página estará 'desenvolvido por magnossites', este é o nome que indica meu trabalho.
+Obs: Em todos esses links, no rodapé da página, estará escrito "Desenvolvido por MagnosSites", que indica meu trabalho.
