@@ -1,0 +1,17 @@
+
+Options -Indexes
+
+    ErrorDocument 400 https://eijelevadores.com
+
+ErrorDocument 401 https://eijelevadores.com
+
+ErrorDocument 403 https://eijelevadores.com
+
+ErrorDocument 404 https://eijelevadores.com
+
+ErrorDocument 500 https://eijelevadores.com
+
+<FilesMatch "\.(html|htm|xml|txt|xsl|css|js|php)$">
+    Header set Cache-Control "max-age=20, must-revalidate"
+    </FilesMatch>
+

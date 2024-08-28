@@ -59,7 +59,7 @@ $arquivo = "
     </html>
   ";
 
-$emailenviar = "contato@magnossites.com";
+$emailenviar = "**********";
 $destino = $emailenviar;
 $assunto = "Contato pelo Site";
 
